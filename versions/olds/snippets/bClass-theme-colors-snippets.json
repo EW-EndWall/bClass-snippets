@@ -1,0 +1,212 @@
+{
+  "bClass Theme Colors: white-wave": {
+    "prefix": "white-wave",
+    "body": ["white-wave"],
+    "description": "[EN] Light gray theme with subtle variations | [TR] Hafif varyasyonlu açık gri tema"
+  },
+  "bClass Theme Colors: white-angel": {
+    "prefix": "white-angel",
+    "body": ["white-angel"],
+    "description": "[EN] Soft lavender theme | [TR] Yumuşak lavanta teması"
+  },
+  "bClass Theme Colors: snow-white": {
+    "prefix": "snow-white",
+    "body": ["snow-white"],
+    "description": "[EN] Clean white theme with dark text | [TR] Koyu renk metinli temiz beyaz tema"
+  },
+  "bClass Theme Colors: blue-crane": {
+    "prefix": "blue-crane",
+    "body": ["blue-crane"],
+    "description": "[EN] Blue-themed color scheme | [TR] Mavi renk şeması"
+  },
+  "bClass Theme Colors: soft-purple": {
+    "prefix": "soft-purple",
+    "body": ["soft-purple"],
+    "description": "[EN] Gentle purple color palette | [TR] Hafif mor renk paleti"
+  },
+  "bClass Theme Colors: sky": {
+    "prefix": "sky",
+    "body": ["sky"],
+    "description": "[EN] Sky-blue color scheme | [TR] Gökyüzü mavisi renk şeması"
+  },
+  "bClass Theme Colors: green-wave": {
+    "prefix": "green-wave",
+    "body": ["green-wave"],
+    "description": "[EN] Teal green theme | [TR] Camgöbeği/Turkuaz yeşili tema"
+  },
+  "bClass Theme Colors: blue-wave": {
+    "prefix": "blue-wave",
+    "body": ["blue-wave"],
+    "description": "[EN] Vibrant blue theme | [TR] Canlı mavi tema"
+  },
+  "bClass Theme Colors: classic-green": {
+    "prefix": "classic-green",
+    "body": ["classic-green"],
+    "description": "[EN] Traditional green theme | [TR] Geleneksel yeşil tema"
+  },
+  "bClass Theme Colors: pinkish": {
+    "prefix": "pinkish",
+    "body": ["pinkish"],
+    "description": "[EN] Purple-pink color scheme | [TR] Mor-pembe renk şeması"
+  },
+  "bClass Theme Colors: deep-ocean": {
+    "prefix": "deep-ocean",
+    "body": ["deep-ocean"],
+    "description": "[EN] Deep blue ocean theme | [TR] Derin mavi okyanus teması"
+  },
+  "bClass Theme Colors: spring": {
+    "prefix": "spring",
+    "body": ["spring"],
+    "description": "[EN] Bright lime green theme | [TR] Parlak limon yeşili teması"
+  },
+  "bClass Theme Colors: autumn": {
+    "prefix": "autumn",
+    "body": ["autumn"],
+    "description": "[EN] Orange-brown autumn color scheme | [TR] Turuncu-kahverengi sonbahar renk şeması"
+  },
+  "bClass Theme Colors: coffee": {
+    "prefix": "coffee",
+    "body": ["coffee"],
+    "description": "[EN] Warm brown coffee theme | [TR] Sıcak kahverengi kahve teması"
+  },
+  "bClass Theme Colors: strong-coffee": {
+    "prefix": "strong-coffee",
+    "body": ["strong-coffee"],
+    "description": "[EN] Darker coffee theme | [TR] Koyu kahve teması"
+  },
+  "bClass Theme Colors: cute-purple": {
+    "prefix": "cute-purple",
+    "body": ["cute-purple"],
+    "description": "[EN] Soft pastel purple theme | [TR] Yumuşak pastel mor tema"
+  },
+  "bClass Theme Colors: open-ocean": {
+    "prefix": "open-ocean",
+    "body": ["open-ocean"],
+    "description": "[EN] Light blue ocean theme | [TR] Açık mavi okyanus teması"
+  },
+  "bClass Theme Colors: taxi": {
+    "prefix": "taxi",
+    "body": ["taxi"],
+    "description": "[EN] Bright yellow theme | [TR] Parlak sarı tema"
+  },
+  "bClass Theme Colors: light-pink": {
+    "prefix": "light-pink",
+    "body": ["light-pink"],
+    "description": "[EN] Soft pink color scheme | [TR] Yumuşak pembe renk şeması"
+  },
+  "bClass Theme Colors: soft-navy-blue": {
+    "prefix": "soft-navy-blue",
+    "body": ["soft-navy-blue"],
+    "description": "[EN] Dark navy blue theme | [TR] Koyu lacivert tema"
+  },
+  "bClass Theme Colors: ultraviolet": {
+    "prefix": "ultraviolet",
+    "body": ["ultraviolet"],
+    "description": "[EN] Deep purple-violet theme | [TR] Derin mor-menekşe teması"
+  },
+  "bClass Theme Colors: red-sparrow": {
+    "prefix": "red-sparrow",
+    "body": ["red-sparrow"],
+    "description": "[EN] Red color scheme | [TR] Kırmızı renk şeması"
+  },
+  "bClass Theme Colors: deep-coffee": {
+    "prefix": "deep-coffee",
+    "body": ["deep-coffee"],
+    "description": "[EN] Very dark coffee theme | [TR] Çok koyu kahve teması"
+  },
+  "bClass Theme Colors: strong-purple": {
+    "prefix": "strong-purple",
+    "body": ["strong-purple"],
+    "description": "[EN] Vibrant purple theme | [TR] Canlı mor tema"
+  },
+  "bClass Theme Colors: purple-of-blue": {
+    "prefix": "purple-of-blue",
+    "body": ["purple-of-blue"],
+    "description": "[EN] Blue-purple hybrid theme | [TR] Mavi-mor hibrit tema"
+  },
+  "bClass Theme Colors: deep-turquoise": {
+    "prefix": "deep-turquoise",
+    "body": ["deep-turquoise"],
+    "description": "[EN] Deep teal turquoise theme | [TR] Derin turkuaz teması"
+  },
+  "bClass Theme Colors: middle-layer": {
+    "prefix": "middle-layer",
+    "body": ["middle-layer"],
+    "description": "[EN] Muted blue-gray theme | [TR] Soluk mavi-gri tema"
+  },
+
+  "bClass Theme Colors Var: Header Background": {
+    "prefix": "var-headerBg",
+    "body": ["var(--headerBg)"],
+    "description": "[EN] Header background color | [TR] Başlık arka plan rengi"
+  },
+  "bClass Theme Colors Var: Footer Background": {
+    "prefix": "var-footerBg",
+    "body": ["var(--footerBg)"],
+    "description": "[EN] Footer background color | [TR] Altbilgi arka plan rengi"
+  },
+  "bClass Theme Colors Var: Header Text": {
+    "prefix": "var-headerText",
+    "body": ["var(--headerText)"],
+    "description": "[EN] Header text color | [TR] Başlık metin rengi"
+  },
+  "bClass Theme Colors Var: Footer Text": {
+    "prefix": "var-footerText",
+    "body": ["var(--footerText)"],
+    "description": "[EN] Footer text color | [TR] Altbilgi metin rengi"
+  },
+  "bClass Theme Colors Var: Content Background": {
+    "prefix": "var-contentBg",
+    "body": ["var(--contentBg)"],
+    "description": "[EN] Content background color | [TR] İçerik arka plan rengi"
+  },
+  "bClass Theme Colors Var: Content Background Primary": {
+    "prefix": "var-contentBgPrimary",
+    "body": ["var(--contentBgPrimary)"],
+    "description": "[EN] Primary content background | [TR] Birincil içerik arka planı"
+  },
+  "bClass Theme Colors Var: Content Background Secondary": {
+    "prefix": "var-contentBgSecondary",
+    "body": ["var(--contentBgSecondary)"],
+    "description": "[EN] Secondary content background | [TR] İkincil içerik arka planı"
+  },
+  "bClass Theme Colors Var: Content Text Primary": {
+    "prefix": "var-contentTextPrimary",
+    "body": ["var(--contentTextPrimary)"],
+    "description": "[EN] Primary content text color | [TR] Birincil içerik metin rengi"
+  },
+  "bClass Theme Colors Var: Content Text Secondary": {
+    "prefix": "var-contentTextSecondary",
+    "body": ["var(--contentTextSecondary)"],
+    "description": "[EN] Secondary content text color | [TR] İkincil içerik metin rengi"
+  },
+  "bClass Theme Colors Var: Plain Background": {
+    "prefix": "var-plainBg",
+    "body": ["var(--plainBg)"],
+    "description": "[EN] Plain background color | [TR] Düz arka plan rengi"
+  },
+
+  "bClass Theme Colors Body Theme Selection": {
+    "prefix": "theme-body",
+    "body": [
+      "<body class=\"${1|white-wave,white-angel,snow-white,blue-crane,soft-purple,sky,green-wave,blue-wave,classic-green,pinkish,deep-ocean,spring,autumn,coffee,strong-coffee,cute-purple,open-ocean,taxi,light-pink,soft-navy-blue,ultraviolet,red-sparrow,deep-coffee,strong-purple,purple-of-blue,deep-turquoise,middle-layer|}\">",
+      "\t$2",
+      "</body>"
+    ],
+    "description": "[EN] Apply bClass theme to body | [TR] Body etiketine bClass teması uygula"
+  },
+  "bClass Theme Colors Dropdown": {
+    "prefix": "theme-class",
+    "body": [
+      "${1|white-wave,white-angel,snow-white,blue-crane,soft-purple,sky,green-wave,blue-wave,classic-green,pinkish,deep-ocean,spring,autumn,coffee,strong-coffee,cute-purple,open-ocean,taxi,light-pink,soft-navy-blue,ultraviolet,red-sparrow,deep-coffee,strong-purple,purple-of-blue,deep-turquoise,middle-layer|}"
+    ],
+    "description": "[EN] Just print the theme class name | [TR] Sadece tema sınıf adını yazdırır"
+  },
+  "bClass Theme Colors Variable Usage": {
+    "prefix": "theme-var",
+    "body": [
+      "var(--${1|headerBg,footerBg,headerText,footerText,contentBg,contentBgPrimary,contentBgSecondary,contentTextPrimary,contentTextSecondary,plainBg|})"
+    ],
+    "description": "[EN] Insert bClass CSS theme variable | [TR] bClass CSS tema değişkeni ekle"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "bClass Class: Animate Up": {
+    "prefix": "animate-up",
+    "body": ["animate-up"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Up div": {
+    "prefix": "animate-up div",
+    "body": ["<div class=\"animate-up\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Left": {
+    "prefix": "animate-left",
+    "body": ["animate-left"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Left div": {
+    "prefix": "animate-left div",
+    "body": ["<div class=\"animate-left\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Down": {
+    "prefix": "animate-down",
+    "body": ["animate-down"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Down div": {
+    "prefix": "animate-down div",
+    "body": ["<div class=\"animate-down\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Right": {
+    "prefix": "animate-right",
+    "body": ["animate-right"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Right div": {
+    "prefix": "animate-right div",
+    "body": ["<div class=\"animate-right\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Slide Right": {
+    "prefix": "animate-slide-right",
+    "body": ["animate-slide-right"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Slide Right div": {
+    "prefix": "animate-slide-right div",
+    "body": ["<div class=\"animate-slide-right\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Slide Left": {
+    "prefix": "animate-slide-left",
+    "body": ["animate-slide-left"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Slide Left div": {
+    "prefix": "animate-slide-left div",
+    "body": ["<div class=\"animate-slide-left\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Slide Up": {
+    "prefix": "animate-slide-up",
+    "body": ["animate-slide-up"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Slide Up div": {
+    "prefix": "animate-slide-up div",
+    "body": ["<div class=\"animate-slide-up\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Slide Down": {
+    "prefix": "animate-slide-down",
+    "body": ["animate-slide-down"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Slide Down div": {
+    "prefix": "animate-slide-down div",
+    "body": ["<div class=\"animate-slide-down\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Opacity Sharp Full": {
+    "prefix": "animate-opacity-sharp-full",
+    "body": ["animate-opacity-sharp-full"],
+    "description": "[EN] Sharp opacity (0 to 1) | [TR] Keskin şeffaflık (0'dan 1'e)"
+  },
+  "bClass Class: Animate Opacity Sharp Half": {
+    "prefix": "animate-opacity-sharp-half",
+    "body": ["animate-opacity-sharp-half"],
+    "description": "[EN] Sharp opacity (0.5 to 1) | [TR] Keskin şeffaflık (0.5'ten 1'e)"
+  },
+  "bClass Class: Animate Opacity Soft Full": {
+    "prefix": "animate-opacity-soft-full",
+    "body": ["animate-opacity-soft-full"],
+    "description": "[EN] Soft opacity (0 to 1 to 0) | [TR] Yumuşak şeffaflık (0 -> 1 -> 0)"
+  },
+  "bClass Class: Animate Opacity Soft Half": {
+    "prefix": "animate-opacity-soft-half",
+    "body": ["animate-opacity-soft-half"],
+    "description": "[EN] Soft opacity (0.5 to 1 to 0.5) | [TR] Yumuşak şeffaflık (0.5 -> 1 -> 0.5)"
+  },
+
+  "bClass Class: Animate Rotate Left": {
+    "prefix": "animate-rotate-l",
+    "body": ["animate-rotate-l"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Rotate Left div": {
+    "prefix": "animate-rotate-l div",
+    "body": ["<div class=\"animate-rotate-l\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Rotate Right": {
+    "prefix": "animate-rotate-r",
+    "body": ["animate-rotate-r"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Rotate Right div": {
+    "prefix": "animate-rotate-r div",
+    "body": ["<div class=\"animate-rotate-r\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Hover Up": {
+    "prefix": "animate-hover-up",
+    "body": ["animate-hover-up"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Hover Up div": {
+    "prefix": "animate-hover-up div",
+    "body": ["<div class=\"animate-hover-up\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Hover Left": {
+    "prefix": "animate-hover-left",
+    "body": ["animate-hover-left"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Hover Left div": {
+    "prefix": "animate-hover-left div",
+    "body": ["<div class=\"animate-hover-left\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Hover Down": {
+    "prefix": "animate-hover-down",
+    "body": ["animate-hover-down"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Hover Down div": {
+    "prefix": "animate-hover-down div",
+    "body": ["<div class=\"animate-hover-down\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Animate Hover Right": {
+    "prefix": "animate-hover-right",
+    "body": ["animate-hover-right"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Animate Hover Right div": {
+    "prefix": "animate-hover-right div",
+    "body": ["<div class=\"animate-hover-right\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Transition None": {
+    "prefix": "transition-none",
+    "body": ["transition-none"],
+    "description": "[EN] No transition | [TR] Geçiş yok"
+  },
+  "bClass Class: Transition All": {
+    "prefix": "transition-all",
+    "body": ["transition-all"],
+    "description": "[EN] All transitions | [TR] Tüm geçişler"
+  },
+  "bClass Class: Transition Color": {
+    "prefix": "transition-color",
+    "body": ["transition-color"],
+    "description": "[EN] Color transitions | [TR] Renk geçişleri"
+  },
+  "bClass Class: Transition Opacity": {
+    "prefix": "transition-opacity",
+    "body": ["transition-opacity"],
+    "description": "[EN] Opacity transitions | [TR] Şeffaflık geçişleri"
+  },
+  "bClass Class: Transition Shadow": {
+    "prefix": "transition-shadow",
+    "body": ["transition-shadow"],
+    "description": "[EN] Shadow transitions | [TR] Gölge geçişleri"
+  },
+  "bClass Class: Transition Transform": {
+    "prefix": "transition-transform",
+    "body": ["transition-transform"],
+    "description": "[EN] Transform transitions | [TR] Dönüşüm geçişleri"
+  },
+  "bClass Class: Transition Margin": {
+    "prefix": "transition-margin",
+    "body": ["transition-margin"],
+    "description": "[EN] Margin transitions | [TR] Kenar boşluğu geçişleri"
+  },
+
+  "bClass Class: Animation Timing Functions": {
+    "prefix": "timing-function",
+    "body": [
+      "${1|linear,ease,ease-in,ease-out,ease-in-out,steps-6-end,cubic-bezier|}"
+    ],
+    "description": "[EN] Animation timing functions (linear, ease, etc.) | [TR] Animasyon zamanlama fonksiyonları"
+  },
+
+  "bClass Class: Animation Duration": {
+    "prefix": "animate-duration",
+    "body": [
+      "animate-duration-${1|0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,2,3,4,5,6,7,8,9,10,15,20,25,30,35,40,45,50,55,60|}"
+    ],
+    "description": "[EN] Animation Duration Class | [TR] Animasyon Süresi Sınıfı"
+  },
+
+  "bClass Class: Animation Delay": {
+    "prefix": "animate-delay",
+    "body": ["animate-delay-${1|1,2,3,4,5|}"],
+    "description": "[EN] Animation Delay Class | [TR] Animasyon Gecikme Sınıfı"
+  },
+
+  "bClass Class: Transition Duration": {
+    "prefix": "transition-duration",
+    "body": ["transition-duration-${1|0.5,1,1.5,2,3,4,5|}"],
+    "description": "[EN] Transition Duration Class | [TR] Geçiş Süresi Sınıfı"
+  },
+
+  "bClass Class: Transition Delay": {
+    "prefix": "transition-delay",
+    "body": ["transition-delay-${1|0,10,25,50,75,100|}"],
+    "description": "[EN] Transition Delay Class | [TR] Geçiş Gecikme Sınıfı"
+  },
+  "bClass Class: Animate Items M-1": {
+    "prefix": "animate-items-m-1",
+    "body": ["animate-items-m-1"],
+    "description": "[EN] Style for items | [TR] Öğeler için stil"
+  },
+  "bClass Class: Animate Items Hovered M-1": {
+    "prefix": "animate-items-hovered-m-1",
+    "body": ["animate-items-hovered-m-1"],
+    "description": "[EN] Style for hovered items | [TR] Üzerine gelinen öğeler için stil"
+  },
+  "bClass Class: Animate Items Not Hovered M-1": {
+    "prefix": "animate-items-not-hovered-m-1",
+    "body": ["animate-items-not-hovered-m-1"],
+    "description": "[EN] Style for non-hovered items | [TR] Üzerine gelinmeyen öğeler için stil"
+  },
+  "bClass Class: Animate None": {
+    "prefix": "animate-none",
+    "body": ["animate-none"],
+    "description": "[EN] No animation | [TR] Animasyon yok"
+  },
+  "bClass Class: Animate Paused": {
+    "prefix": "animate-paused",
+    "body": ["animate-paused"],
+    "description": "[EN] Pause animation | [TR] Animasyonu duraklat"
+  },
+  "bClass Class: Animation Infinite": {
+    "prefix": "infinite",
+    "body": ["infinite"],
+    "description": "[EN] Infinite animation loop | [TR] Sonsuz animasyon döngüsü"
+  },
+  "bClass Class: Animation Forwards": {
+    "prefix": "forwards",
+    "body": ["forwards"],
+    "description": "[EN] Animation forwards fill mode | [TR] Animasyon ileri dolgu modu"
+  },
+
+  "bClass Class: Timing Linear": {
+    "prefix": "linear",
+    "body": ["linear"],
+    "description": "[EN] Linear timing function | [TR] Doğrusal zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Ease": {
+    "prefix": "ease",
+    "body": ["ease"],
+    "description": "[EN] Ease timing function | [TR] Yumuşak (ease) zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Ease In": {
+    "prefix": "ease-in",
+    "body": ["ease-in"],
+    "description": "[EN] Ease-in timing function | [TR] Yumuşak başlangıç (ease-in) zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Ease Out": {
+    "prefix": "ease-out",
+    "body": ["ease-out"],
+    "description": "[EN] Ease-out timing function | [TR] Yumuşak bitiş (ease-out) zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Ease In Out": {
+    "prefix": "ease-in-out",
+    "body": ["ease-in-out"],
+    "description": "[EN] Ease-in-out timing function | [TR] Yumuşak başlangıç-bitiş (ease-in-out) zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Steps 6 End": {
+    "prefix": "steps-6-end",
+    "body": ["steps-6-end"],
+    "description": "[EN] Timing function with 6 steps | [TR] 6 adımlı zamanlama fonksiyonu"
+  },
+  "bClass Class: Timing Cubic Bezier": {
+    "prefix": "cubic-bezier",
+    "body": ["cubic-bezier"],
+    "description": "[EN] Cubic bezier timing function | [TR] Kübik bezier zamanlama fonksiyonu"
+  }
+}

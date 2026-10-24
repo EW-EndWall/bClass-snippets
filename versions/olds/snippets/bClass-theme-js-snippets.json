@@ -1,0 +1,286 @@
+{
+  "bClass Dynamic: Width": {
+    "prefix": "w-[",
+    "body": ["w-[${1|px,rem,%|}]"],
+    "description": "[EN] Width dynamic class | [TR] Dinamik genişlik sınıfı"
+  },
+  "bClass Dynamic: Height": {
+    "prefix": "h-[",
+    "body": ["h-[${1|px,rem,%|}]"],
+    "description": "[EN] Height dynamic class | [TR] Dinamik yükseklik sınıfı"
+  },
+
+  "bClass Dynamic: Margin All": {
+    "prefix": "m-[",
+    "body": ["m-[${1|px,rem,%|}]"],
+    "description": "[EN] Margin all dynamic class | [TR] Dinamik genel kenar boşluğu sınıfı"
+  },
+  "bClass Dynamic: Margin Top": {
+    "prefix": "mt-[",
+    "body": ["mt-[${1|px,rem,%|}]"],
+    "description": "[EN] Margin top dynamic class | [TR] Dinamik üst kenar boşluğu sınıfı"
+  },
+  "bClass Dynamic: Margin Bottom": {
+    "prefix": "mb-[",
+    "body": ["mb-[${1|px,rem,%|}]"],
+    "description": "[EN] Margin bottom dynamic class | [TR] Dinamik alt kenar boşluğu sınıfı"
+  },
+  "bClass Dynamic: Margin Left": {
+    "prefix": "ml-[",
+    "body": ["ml-[${1|px,rem,%|}]"],
+    "description": "[EN] Margin left dynamic class | [TR] Dinamik sol kenar boşluğu sınıfı"
+  },
+  "bClass Dynamic: Margin Right": {
+    "prefix": "mr-[",
+    "body": ["mr-[${1|px,rem,%|}]"],
+    "description": "[EN] Margin right dynamic class | [TR] Dinamik sağ kenar boşluğu sınıfı"
+  },
+
+  "bClass Dynamic: Padding All": {
+    "prefix": "p-[",
+    "body": ["p-[${1|px,rem,%|}]"],
+    "description": "[EN] Padding all dynamic class | [TR] Dinamik genel iç boşluk sınıfı"
+  },
+  "bClass Dynamic: Padding Top": {
+    "prefix": "pt-[",
+    "body": ["pt-[${1|px,rem,%|}]"],
+    "description": "[EN] Padding top dynamic class | [TR] Dinamik üst iç boşluk sınıfı"
+  },
+  "bClass Dynamic: Padding Bottom": {
+    "prefix": "pb-[",
+    "body": ["pb-[${1|px,rem,%|}]"],
+    "description": "[EN] Padding bottom dynamic class | [TR] Dinamik alt iç boşluk sınıfı"
+  },
+  "bClass Dynamic: Padding Left": {
+    "prefix": "pl-[",
+    "body": ["pl-[${1|px,rem,%|}]"],
+    "description": "[EN] Padding left dynamic class | [TR] Dinamik sol iç boşluk sınıfı"
+  },
+  "bClass Dynamic: Padding Right": {
+    "prefix": "pr-[",
+    "body": ["pr-[${1|px,rem,%|}]"],
+    "description": "[EN] Padding right dynamic class | [TR] Dinamik sağ iç boşluk sınıfı"
+  },
+
+  "bClass Dynamic: Positioning Top": {
+    "prefix": "top-[",
+    "body": ["top-[${1|px,rem,%|}]"],
+    "description": "[EN] Top positioning class | [TR] Üst konumlandırma sınıfı"
+  },
+  "bClass Dynamic: Positioning Bottom": {
+    "prefix": "bottom-[",
+    "body": ["bottom-[${1|px,rem,%|}]"],
+    "description": "[EN] Bottom positioning class | [TR] Alt konumlandırma sınıfı"
+  },
+  "bClass Dynamic: Positioning Left": {
+    "prefix": "left-[",
+    "body": ["left-[${1|px,rem,%|}]"],
+    "description": "[EN] Left positioning class | [TR] Sol konumlandırma sınıfı"
+  },
+  "bClass Dynamic: Positioning Right": {
+    "prefix": "right-[",
+    "body": ["right-[${1|px,rem,%|}]"],
+    "description": "[EN] Right positioning class | [TR] Sağ konumlandırma sınıfı"
+  },
+
+  "bClass Dynamic: Background Color": {
+    "prefix": "bg-[",
+    "body": ["bg-[${1:color}]"],
+    "description": "[EN] Background color dynamic class | [TR] Dinamik arka plan rengi sınıfı"
+  },
+  "bClass Dynamic: Text Color": {
+    "prefix": "color-[",
+    "body": ["color-[${1:color}]"],
+    "description": "[EN] Text color dynamic class | [TR] Dinamik metin rengi sınıfı"
+  },
+  "bClass Dynamic: Text Color Alternative": {
+    "prefix": "text-[",
+    "body": ["text-[${1:color}]"],
+    "description": "[EN] Text color dynamic class | [TR] Dinamik metin rengi sınıfı"
+  },
+  "bClass Dynamic: Font Size": {
+    "prefix": "font-size-[",
+    "body": ["font-size-[${1|px,rem,%|}]"],
+    "description": "[EN] Font size dynamic class | [TR] Dinamik yazı boyutu sınıfı"
+  },
+
+  "bClass Dynamic: Transform": {
+    "prefix": "transform-[",
+    "body": ["transform-[${1|scale(1.1),rotate(45deg),translateY(-10px)|}]"],
+    "description": "[EN] Transform dynamic class | [TR] Dinamik dönüşüm sınıfı"
+  },
+
+  "bClass Dynamic: Border Radius All": {
+    "prefix": "rounded-[",
+    "body": ["rounded-[${1|px,rem,%|}]"],
+    "description": "[EN] Border radius dynamic class | [TR] Dinamik kenar yuvarlama sınıfı"
+  },
+  "bClass Dynamic: Border Radius Top Left": {
+    "prefix": "rounded-tl-[",
+    "body": ["rounded-tl-[${1|px,rem,%|}]"],
+    "description": "[EN] Top-left border radius | [TR] Sol-üst kenar yuvarlama sınıfı"
+  },
+  "bClass Dynamic: Border Radius Top Right": {
+    "prefix": "rounded-tr-[",
+    "body": ["rounded-tr-[${1|px,rem,%|}]"],
+    "description": "[EN] Top-right border radius | [TR] Sağ-üst kenar yuvarlama sınıfı"
+  },
+  "bClass Dynamic: Border Radius Bottom Left": {
+    "prefix": "rounded-bl-[",
+    "body": ["rounded-bl-[${1|px,rem,%|}]"],
+    "description": "[EN] Bottom-left border radius | [TR] Sol-alt kenar yuvarlama sınıfı"
+  },
+  "bClass Dynamic: Border Radius Bottom Right": {
+    "prefix": "rounded-br-[",
+    "body": ["rounded-br-[${1|px,rem,%|}]"],
+    "description": "[EN] Bottom-right border radius | [TR] Sağ-alt kenar yuvarlama sınıfı"
+  },
+
+  "bClass Dynamic: Gap": {
+    "prefix": "gap-[",
+    "body": ["gap-[${1|px,rem,%|}]"],
+    "description": "[EN] Gap dynamic class | [TR] Dinamik aralık sınıfı"
+  },
+
+  "bClass State: Hover": {
+    "prefix": "hover:",
+    "body": ["hover:"],
+    "description": "[EN] Hover state prefix | [TR] Hover (üzerine gelme) durum öneki"
+  },
+  "bClass State: Focus": {
+    "prefix": "focus:",
+    "body": ["focus:"],
+    "description": "[EN] Focus state prefix | [TR] Focus (odaklanma) durum öneki"
+  },
+  "bClass State: Before": {
+    "prefix": "before:",
+    "body": ["before:"],
+    "description": "[EN] Before pseudo-element | [TR] Before sahte öğesi"
+  },
+  "bClass State: After": {
+    "prefix": "after:",
+    "body": ["after:"],
+    "description": "[EN] After pseudo-element | [TR] After sahte öğesi"
+  },
+  "bClass State: First of Type": {
+    "prefix": "first-of-type:",
+    "body": ["first-of-type:"],
+    "description": "[EN] First of type state | [TR] Türün ilk öğesi durumu"
+  },
+  "bClass State: Last of Type": {
+    "prefix": "last-of-type:",
+    "body": ["last-of-type:"],
+    "description": "[EN] Last of type state | [TR] Türün son öğesi durumu"
+  },
+  "bClass State: Active": {
+    "prefix": "active:",
+    "body": ["active:"],
+    "description": "[EN] Active state | [TR] Aktif durum"
+  },
+  "bClass State: Checked": {
+    "prefix": "checked:",
+    "body": ["checked:"],
+    "description": "[EN] Checked state | [TR] İşaretli (checked) durum"
+  },
+  "bClass State: Disabled": {
+    "prefix": "disabled:",
+    "body": ["disabled:"],
+    "description": "[EN] Disabled state | [TR] Devre dışı (disabled) durum"
+  },
+  "bClass State: Enabled": {
+    "prefix": "enabled:",
+    "body": ["enabled:"],
+    "description": "[EN] Enabled state | [TR] Etkin (enabled) durum"
+  },
+
+  "bClass Dynamic Content: Normal": {
+    "prefix": "content-[",
+    "body": ["content-[${1:text}]"],
+    "description": "[EN] Content string addition | [TR] İçerik metni ekleme"
+  },
+  "bClass Dynamic Content: Attribute": {
+    "prefix": "content-[attr(",
+    "body": ["content-[attr(${1:data-name})]"],
+    "description": "[EN] Content from attribute | [TR] Özellikten içerik ekleme"
+  },
+  "bClass Dynamic Content: Variable": {
+    "prefix": "content-[var(",
+    "body": ["content-[var(--${1:variable-name})]"],
+    "description": "[EN] Content from CSS variable | [TR] CSS değişkeninden içerik ekleme"
+  },
+  "bClass Dynamic Content: URL": {
+    "prefix": "content-[url(",
+    "body": ["content-[url(${1:link})]"],
+    "description": "[EN] Content from URL | [TR] Bağlantıdan (URL) içerik ekleme"
+  },
+  "bClass Dynamic Content: Counter": {
+    "prefix": "content-[counter(",
+    "body": ["content-[counter(${1:name})]"],
+    "description": "[EN] Content from counter | [TR] Sayaçtan içerik ekleme"
+  },
+  "bClass Dynamic Content: Counters": {
+    "prefix": "content-[counters(",
+    "body": ["content-[counters(${1:name})]"],
+    "description": "[EN] Content from counters | [TR] Sayaçlardan içerik ekleme"
+  },
+
+  "bClass Dynamic: Filter": {
+    "prefix": "filter-[",
+    "body": ["filter-[${1|blur(5px),grayscale(100%),invert(100%)|}]"],
+    "description": "[EN] CSS Filter dynamic class | [TR] Dinamik CSS Filtresi sınıfı"
+  },
+
+  "bClass Custom Block Override": {
+    "prefix": "custom-[",
+    "body": ["${1|hover:,focus:,|}[${2:css-property}:${3:value}]"],
+    "description": "[EN] Custom inline CSS block | [TR] Özel satıriçi CSS bloğu"
+  },
+
+  "bClass Attribute: Phone Input (Only Attr)": {
+    "prefix": "type-tel",
+    "body": ["type=\"tel\" maxlength=\"21\" required"],
+    "description": "[EN] Phone input attributes | [TR] Telefon giriş HTML özellikleri"
+  },
+  "bClass HTML: Phone Input (Full Element)": {
+    "prefix": "input-tel phone",
+    "body": [
+      "<div>",
+      "\t<label for=\"${1:phone}\">${2:Telefon:}</label>",
+      "\t<input type=\"tel\" v-model=\"${1:phone}\" id=\"${1:phone}\" maxlength=\"21\" required />",
+      "</div>"
+    ],
+    "description": "[EN] Auto-formatting phone input field | [TR] Otomatik formatlanan telefon giriş alanı"
+  },
+
+  "bClass Class: Horizontal Scroll": {
+    "prefix": "ul-li-x-scroll",
+    "body": ["ul-li-x-scroll"],
+    "description": "[EN] Horizontal scroll class | [TR] Sadece yatay kaydırma sınıfı"
+  },
+  "bClass Class: Horizontal Scroll Hidden": {
+    "prefix": "ul-li-x-scroll-hidden",
+    "body": ["ul-li-x-scroll-hidden"],
+    "description": "[EN] Horizontal scroll hidden class | [TR] Sadece gizli yatay kaydırma sınıfı"
+  },
+  "bClass HTML: Horizontal Scroll List": {
+    "prefix": "ul-li-x-scroll ul",
+    "body": [
+      "<ul class=\"ul-li-x-scroll${1|-hidden|}\">",
+      "\t<li>${2:Öğe 1}</li>",
+      "\t<li>${3:Öğe 2}</li>",
+      "</ul>"
+    ],
+    "description": "[EN] Horizontal scrollable list | [TR] Tam yatay kaydırılabilir liste HTML"
+  },
+
+  "bClass Class: Current Year": {
+    "prefix": "current-year",
+    "body": ["current-year"],
+    "description": "[EN] Current year class | [TR] Sadece mevcut yıl sınıfı"
+  },
+  "bClass HTML: Current Year Element": {
+    "prefix": "current-year h6",
+    "body": ["<h6 class=\"current-year\">${1:2020-}</h6>"],
+    "description": "[EN] Auto-updating current year element | [TR] Tam otomatik güncellenen mevcut yıl HTML"
+  }
+}

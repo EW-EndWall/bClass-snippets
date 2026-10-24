@@ -1,0 +1,307 @@
+{
+  "Body Theme Selection": {
+    "prefix": "body-theme",
+    "body": [
+      "<body class=\"${1|white-wave,white-angel,snow-white,blue-crane,soft-purple,sky,green-wave,blue-wave,classic-green,pinkish,deep-ocean,spring,autumn,coffee,strong-coffee,cute-purple,open-ocean,taxi,light-pink,soft-navy-blue,ultraviolet,red-sparrow,deep-coffee,strong-purple,purple-of-blue,deep-turquoise,middle-layer|}\">",
+      "\t$0",
+      "</body>"
+    ],
+    "description": "Theme Colors: Body tag with theme class dropdown selector"
+  },
+  "Theme Selection": {
+    "prefix": "theme-color",
+    "body": [
+      "${1|white-wave,white-angel,snow-white,blue-crane,soft-purple,sky,green-wave,blue-wave,classic-green,pinkish,deep-ocean,spring,autumn,coffee,strong-coffee,cute-purple,open-ocean,taxi,light-pink,soft-navy-blue,ultraviolet,red-sparrow,deep-coffee,strong-purple,purple-of-blue,deep-turquoise,middle-layer|}"
+    ],
+    "description": "Theme Colors: Select theme name from dropdown"
+  },
+  "Theme: white-wave": {
+    "prefix": "white-wave",
+    "body": [
+      "white-wave"
+    ],
+    "description": "A light gray theme with subtle variations"
+  },
+  "Theme: white-angel": {
+    "prefix": "white-angel",
+    "body": [
+      "white-angel"
+    ],
+    "description": "A soft lavender theme"
+  },
+  "Theme: snow-white": {
+    "prefix": "snow-white",
+    "body": [
+      "snow-white"
+    ],
+    "description": "A clean white theme with dark text"
+  },
+  "Theme: blue-crane": {
+    "prefix": "blue-crane",
+    "body": [
+      "blue-crane"
+    ],
+    "description": "A blue-themed color scheme"
+  },
+  "Theme: soft-purple": {
+    "prefix": "soft-purple",
+    "body": [
+      "soft-purple"
+    ],
+    "description": "A gentle purple color palette"
+  },
+  "Theme: sky": {
+    "prefix": "sky",
+    "body": [
+      "sky"
+    ],
+    "description": "A sky-blue color scheme"
+  },
+  "Theme: green-wave": {
+    "prefix": "green-wave",
+    "body": [
+      "green-wave"
+    ],
+    "description": "A teal green theme"
+  },
+  "Theme: blue-wave": {
+    "prefix": "blue-wave",
+    "body": [
+      "blue-wave"
+    ],
+    "description": "A vibrant blue theme"
+  },
+  "Theme: classic-green": {
+    "prefix": "classic-green",
+    "body": [
+      "classic-green"
+    ],
+    "description": "A traditional green theme"
+  },
+  "Theme: pinkish": {
+    "prefix": "pinkish",
+    "body": [
+      "pinkish"
+    ],
+    "description": "A purple-pink color scheme"
+  },
+  "Theme: deep-ocean": {
+    "prefix": "deep-ocean",
+    "body": [
+      "deep-ocean"
+    ],
+    "description": "A deep blue ocean theme"
+  },
+  "Theme: spring": {
+    "prefix": "spring",
+    "body": [
+      "spring"
+    ],
+    "description": "A bright lime green theme"
+  },
+  "Theme: autumn": {
+    "prefix": "autumn",
+    "body": [
+      "autumn"
+    ],
+    "description": "An orange-brown autumn color scheme"
+  },
+  "Theme: coffee": {
+    "prefix": "coffee",
+    "body": [
+      "coffee"
+    ],
+    "description": "A warm brown coffee theme"
+  },
+  "Theme: strong-coffee": {
+    "prefix": "strong-coffee",
+    "body": [
+      "strong-coffee"
+    ],
+    "description": "A darker coffee theme"
+  },
+  "Theme: cute-purple": {
+    "prefix": "cute-purple",
+    "body": [
+      "cute-purple"
+    ],
+    "description": "A soft pastel purple theme"
+  },
+  "Theme: open-ocean": {
+    "prefix": "open-ocean",
+    "body": [
+      "open-ocean"
+    ],
+    "description": "A light blue ocean theme"
+  },
+  "Theme: taxi": {
+    "prefix": "taxi",
+    "body": [
+      "taxi"
+    ],
+    "description": "A bright yellow theme"
+  },
+  "Theme: light-pink": {
+    "prefix": "light-pink",
+    "body": [
+      "light-pink"
+    ],
+    "description": "A soft pink color scheme"
+  },
+  "Theme: soft-navy-blue": {
+    "prefix": "soft-navy-blue",
+    "body": [
+      "soft-navy-blue"
+    ],
+    "description": "A dark navy blue theme"
+  },
+  "Theme: ultraviolet": {
+    "prefix": "ultraviolet",
+    "body": [
+      "ultraviolet"
+    ],
+    "description": "A deep purple-violet theme"
+  },
+  "Theme: red-sparrow": {
+    "prefix": "red-sparrow",
+    "body": [
+      "red-sparrow"
+    ],
+    "description": "A red color scheme"
+  },
+  "Theme: deep-coffee": {
+    "prefix": "deep-coffee",
+    "body": [
+      "deep-coffee"
+    ],
+    "description": "A very dark coffee theme"
+  },
+  "Theme: strong-purple": {
+    "prefix": "strong-purple",
+    "body": [
+      "strong-purple"
+    ],
+    "description": "A vibrant purple theme"
+  },
+  "Theme: purple-of-blue": {
+    "prefix": "purple-of-blue",
+    "body": [
+      "purple-of-blue"
+    ],
+    "description": "A blue-purple hybrid theme"
+  },
+  "Theme: deep-turquoise": {
+    "prefix": "deep-turquoise",
+    "body": [
+      "deep-turquoise"
+    ],
+    "description": "A deep teal turquoise theme"
+  },
+  "Theme: middle-layer": {
+    "prefix": "middle-layer",
+    "body": [
+      "middle-layer"
+    ],
+    "description": "A muted blue-gray theme"
+  },
+  "CSS Var: --headerBg": {
+    "prefix": [
+      "--headerBg",
+      "var(--headerBg)"
+    ],
+    "body": [
+      "var(--headerBg)"
+    ],
+    "description": "Header background color"
+  },
+  "CSS Var: --footerBg": {
+    "prefix": [
+      "--footerBg",
+      "var(--footerBg)"
+    ],
+    "body": [
+      "var(--footerBg)"
+    ],
+    "description": "Footer background color"
+  },
+  "CSS Var: --headerText": {
+    "prefix": [
+      "--headerText",
+      "var(--headerText)"
+    ],
+    "body": [
+      "var(--headerText)"
+    ],
+    "description": "Header text color"
+  },
+  "CSS Var: --footerText": {
+    "prefix": [
+      "--footerText",
+      "var(--footerText)"
+    ],
+    "body": [
+      "var(--footerText)"
+    ],
+    "description": "Footer text color"
+  },
+  "CSS Var: --contentBg": {
+    "prefix": [
+      "--contentBg",
+      "var(--contentBg)"
+    ],
+    "body": [
+      "var(--contentBg)"
+    ],
+    "description": "Content background color"
+  },
+  "CSS Var: --contentBgPrimary": {
+    "prefix": [
+      "--contentBgPrimary",
+      "var(--contentBgPrimary)"
+    ],
+    "body": [
+      "var(--contentBgPrimary)"
+    ],
+    "description": "Primary content background color"
+  },
+  "CSS Var: --contentBgSecondary": {
+    "prefix": [
+      "--contentBgSecondary",
+      "var(--contentBgSecondary)"
+    ],
+    "body": [
+      "var(--contentBgSecondary)"
+    ],
+    "description": "Secondary content background color"
+  },
+  "CSS Var: --contentTextPrimary": {
+    "prefix": [
+      "--contentTextPrimary",
+      "var(--contentTextPrimary)"
+    ],
+    "body": [
+      "var(--contentTextPrimary)"
+    ],
+    "description": "Primary content text color"
+  },
+  "CSS Var: --contentTextSecondary": {
+    "prefix": [
+      "--contentTextSecondary",
+      "var(--contentTextSecondary)"
+    ],
+    "body": [
+      "var(--contentTextSecondary)"
+    ],
+    "description": "Secondary content text color"
+  },
+  "CSS Var: --plainBg": {
+    "prefix": [
+      "--plainBg",
+      "var(--plainBg)"
+    ],
+    "body": [
+      "var(--plainBg)"
+    ],
+    "description": "Plain background color"
+  }
+}

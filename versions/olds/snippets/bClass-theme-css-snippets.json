@@ -1,0 +1,231 @@
+{
+  "bClass CSS: Display": {
+    "prefix": "d-",
+    "body": ["d-${1|none,block,flex,inline,inline-block,grid|}"],
+    "description": "[EN] Display classes | [TR] Görünüm (Display) sınıfları"
+  },
+
+  "bClass CSS: Flex Direction": {
+    "prefix": "flex-",
+    "body": ["flex-${1|row,row-reverse,column,column-reverse,wrap,nowrap|}"],
+    "description": "[EN] Flexbox direction & wrap | [TR] Flexbox yön ve sarma sınıfları"
+  },
+  "bClass CSS: Justify Content": {
+    "prefix": "justify-content-",
+    "body": ["justify-content-${1|start,end,center,between,around,evenly|}"],
+    "description": "[EN] Flex Justify Content | [TR] Yatay hizalama (Justify Content)"
+  },
+  "bClass CSS: Align Items": {
+    "prefix": "align-items-",
+    "body": ["align-items-${1|start,end,center,baseline,stretch|}"],
+    "description": "[EN] Flex Align Items | [TR] Dikey hizalama (Align Items)"
+  },
+
+  "bClass CSS: Margin All": {
+    "prefix": "m-",
+    "body": ["m-${1|0,1,2,3,4,5,auto|}"],
+    "description": "[EN] Margin all sides | [TR] Tüm yönlerden dış boşluk"
+  },
+  "bClass CSS: Margin Top": {
+    "prefix": "mt-",
+    "body": ["mt-${1|0,1,2,3,4,5,auto|}"],
+    "description": "[EN] Margin top | [TR] Üst dış boşluk"
+  },
+  "bClass CSS: Margin Bottom": {
+    "prefix": "mb-",
+    "body": ["mb-${1|0,1,2,3,4,5,auto|}"],
+    "description": "[EN] Margin bottom | [TR] Alt dış boşluk"
+  },
+  "bClass CSS: Margin Left": {
+    "prefix": "ml-",
+    "body": ["ml-${1|0,1,2,3,4,5,auto|}"],
+    "description": "[EN] Margin left | [TR] Sol dış boşluk"
+  },
+  "bClass CSS: Margin Right": {
+    "prefix": "mr-",
+    "body": ["mr-${1|0,1,2,3,4,5,auto|}"],
+    "description": "[EN] Margin right | [TR] Sağ dış boşluk"
+  },
+
+  "bClass CSS: Padding All": {
+    "prefix": "p-",
+    "body": ["p-${1|0,1,2,3,4,5|}"],
+    "description": "[EN] Padding all sides | [TR] Tüm yönlerden iç boşluk"
+  },
+  "bClass CSS: Padding Top": {
+    "prefix": "pt-",
+    "body": ["pt-${1|0,1,2,3,4,5|}"],
+    "description": "[EN] Padding top | [TR] Üst iç boşluk"
+  },
+  "bClass CSS: Padding Bottom": {
+    "prefix": "pb-",
+    "body": ["pb-${1|0,1,2,3,4,5|}"],
+    "description": "[EN] Padding bottom | [TR] Alt iç boşluk"
+  },
+  "bClass CSS: Padding Left": {
+    "prefix": "pl-",
+    "body": ["pl-${1|0,1,2,3,4,5|}"],
+    "description": "[EN] Padding left | [TR] Sol iç boşluk"
+  },
+  "bClass CSS: Padding Right": {
+    "prefix": "pr-",
+    "body": ["pr-${1|0,1,2,3,4,5|}"],
+    "description": "[EN] Padding right | [TR] Sağ iç boşluk"
+  },
+
+  "bClass CSS: Width Options": {
+    "prefix": "w-",
+    "body": ["w-${1|25,50,75,100,auto,100vw|}"],
+    "description": "[EN] Width classes | [TR] Genişlik sınıfları"
+  },
+  "bClass CSS: Height Options": {
+    "prefix": "h-",
+    "body": ["h-${1|25,50,75,100,auto,100vh|}"],
+    "description": "[EN] Height classes | [TR] Yükseklik sınıfları"
+  },
+
+  "bClass CSS: Position": {
+    "prefix": "position-",
+    "body": ["position-${1|static,relative,absolute,fixed,sticky|}"],
+    "description": "[EN] CSS Positioning | [TR] CSS Konumlandırma sınıfları"
+  },
+  "bClass CSS: Top": {
+    "prefix": "top-",
+    "body": ["top-${1|0,50,100|}"],
+    "description": "[EN] Top position | [TR] Üst konum"
+  },
+  "bClass CSS: Bottom": {
+    "prefix": "bottom-",
+    "body": ["bottom-${1|0,50,100|}"],
+    "description": "[EN] Bottom position | [TR] Alt konum"
+  },
+  "bClass CSS: Left": {
+    "prefix": "left-",
+    "body": ["left-${1|0,50,100|}"],
+    "description": "[EN] Left position | [TR] Sol konum"
+  },
+  "bClass CSS: Right": {
+    "prefix": "right-",
+    "body": ["right-${1|0,50,100|}"],
+    "description": "[EN] Right position | [TR] Sağ konum"
+  },
+
+  "bClass CSS: Z-Index": {
+    "prefix": "z-",
+    "body": ["z-${1|0,1,2,3,4,5,10,50,100|}"],
+    "description": "[EN] Z-index levels | [TR] Z-index seviyeleri"
+  },
+
+  "bClass CSS: Background Color": {
+    "prefix": "bg-",
+    "body": [
+      "bg-${1|primary,secondary,success,danger,warning,info,light,dark,white,transparent|}"
+    ],
+    "description": "[EN] Background colors | [TR] Arka plan renkleri"
+  },
+  "bClass CSS: Text Color": {
+    "prefix": "text-",
+    "body": [
+      "text-${1|primary,secondary,success,danger,warning,info,light,dark,white,muted|}"
+    ],
+    "description": "[EN] Text colors | [TR] Metin renkleri"
+  },
+
+  "bClass CSS: Text Align": {
+    "prefix": "text-align-",
+    "body": ["text-${1|left,center,right,justify|}"],
+    "description": "[EN] Text alignment | [TR] Metin hizalama"
+  },
+  "bClass CSS: Text Transform": {
+    "prefix": "text-transform-",
+    "body": ["text-${1|lowercase,uppercase,capitalize|}"],
+    "description": "[EN] Text transformation | [TR] Metin dönüştürme"
+  },
+  "bClass CSS: Font Weight": {
+    "prefix": "font-weight-",
+    "body": [
+      "font-weight-${1|normal,bold,bolder,light,100,200,300,400,500,600,700,800,900|}"
+    ],
+    "description": "[EN] Font weight | [TR] Yazı tipi kalınlığı"
+  },
+  "bClass CSS: Font Size": {
+    "prefix": "font-size-",
+    "body": ["font-size-${1|1,2,3,4,5,6|}"],
+    "description": "[EN] Font sizes | [TR] Yazı boyutları"
+  },
+
+  "bClass CSS: Border": {
+    "prefix": "border-",
+    "body": ["border${1|-0,-top,-bottom,-left,-right|}"],
+    "description": "[EN] Border utilities | [TR] Kenarlık araçları"
+  },
+  "bClass CSS: Border Radius": {
+    "prefix": "rounded-",
+    "body": ["rounded${1|-0,-circle,-pill,-top,-right,-bottom,-left|}"],
+    "description": "[EN] Border radius | [TR] Kenar yuvarlama"
+  },
+
+  "bClass CSS: Shadow": {
+    "prefix": "shadow-",
+    "body": ["shadow${1|-none,-sm,-lg|}"],
+    "description": "[EN] Box shadow | [TR] Kutu gölgesi"
+  },
+
+  "bClass CSS: Opacity": {
+    "prefix": "opacity-",
+    "body": ["opacity-${1|0,25,50,75,100|}"],
+    "description": "[EN] Opacity | [TR] Şeffaflık seviyesi"
+  },
+
+  "bClass CSS: Cursor": {
+    "prefix": "cursor-",
+    "body": ["cursor-${1|auto,pointer,crosshair,not-allowed,wait,text,move|}"],
+    "description": "[EN] Cursor styles | [TR] İmleç stilleri"
+  },
+
+  "bClass CSS: Overflow": {
+    "prefix": "overflow-",
+    "body": ["overflow-${1|auto,hidden,visible,scroll|}"],
+    "description": "[EN] Overflow utilities | [TR] Taşma kontrolü"
+  },
+
+  "bClass CSS: Object Fit": {
+    "prefix": "object-",
+    "body": ["object-${1|contain,cover,fill,none,scale-down|}"],
+    "description": "[EN] Object fit for media | [TR] Medya öğesi sığdırma"
+  },
+
+  "bClass CSS: Float": {
+    "prefix": "float-",
+    "body": ["float-${1|left,right,none|}"],
+    "description": "[EN] Float elements | [TR] Öğeleri kaydırma (Float)"
+  },
+
+  "bClass CSS: Visibility": {
+    "prefix": "visibility-",
+    "body": ["${1|visible,invisible|}"],
+    "description": "[EN] Visibility | [TR] Görünürlük sınıfları"
+  },
+
+  "bClass CSS: User Select": {
+    "prefix": "select-",
+    "body": ["select-${1|all,auto,none,text|}"],
+    "description": "[EN] Text selection | [TR] Metin seçimi kısıtlaması"
+  },
+
+  "bClass CSS: Resize": {
+    "prefix": "resize-",
+    "body": ["resize-${1|none,both,horizontal,vertical|}"],
+    "description": "[EN] Element resize | [TR] Öğe yeniden boyutlandırma"
+  },
+
+  "bClass HTML: CSS Block Structure": {
+    "prefix": "bclass-block div",
+    "body": [
+      "<div class=\"d-flex justify-content-${1:center} align-items-${2:center} w-${3:100} h-${4:100} bg-${5:light}\">",
+      "\t${6:İçerik...}",
+      "</div>"
+    ],
+    "description": "[EN] bClass CSS Layout Block | [TR] bClass CSS Düzen Bloğu (HTML)"
+  }
+}

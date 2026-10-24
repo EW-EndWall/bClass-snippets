@@ -1,0 +1,439 @@
+{
+  "bClass Class: Page Loader": {
+    "prefix": "page-loader-m-1",
+    "body": ["page-loader-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/poxMvog"
+  },
+  "bClass HTML: Page Loader div": {
+    "prefix": "page-loader-m-1 div",
+    "body": [
+      "<div id=\"page-loader\" class=\"page-loader-m-1\">",
+      "\t<img src=\"${1:./loader/1.png}\" alt=\"page-loader\" />",
+      "\t<img src=\"${2:./loader/2.png}\" alt=\"page-loader\" />",
+      "</div>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/poxMvog"
+  },
+
+  "bClass Class: Simple Loader": {
+    "prefix": "loader-m-1",
+    "body": ["loader-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Simple Loader div": {
+    "prefix": "loader-m-1 div",
+    "body": ["<div class=\"loader-m-1 w-rem-5 h-rem-5\"></div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Model Line": {
+    "prefix": "model-line",
+    "body": ["model-line"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Model Line div": {
+    "prefix": "model-line div",
+    "body": ["<div class=\"model-line\">${1:İçerik...}</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Notification Badge": {
+    "prefix": "notification-badge",
+    "body": ["notification-badge"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/ZEVKqvR"
+  },
+  "bClass HTML: Notification Badge span": {
+    "prefix": "notification-badge span",
+    "body": ["<span class=\"notification-badge\">${1:1}</span>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/ZEVKqvR"
+  },
+
+  "bClass Class: List ul-li-x": {
+    "prefix": "ul-li-x",
+    "body": ["ul-li-x"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/qBJQood"
+  },
+  "bClass HTML: List ul-li-x ul": {
+    "prefix": "ul-li-x ul",
+    "body": [
+      "<ul class=\"ul-li-x\">",
+      "\t<li>${1:Eleman 1}</li>",
+      "\t<li>${2:Eleman 2}</li>",
+      "</ul>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/qBJQood"
+  },
+
+  "bClass Class: List ul-li-y": {
+    "prefix": "ul-li-y",
+    "body": ["ul-li-y"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/qBJQood"
+  },
+  "bClass HTML: List ul-li-y ul": {
+    "prefix": "ul-li-y ul",
+    "body": [
+      "<ul class=\"ul-li-y\">",
+      "\t<li>${1:Eleman 1}</li>",
+      "\t<li>${2:Eleman 2}</li>",
+      "</ul>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/qBJQood"
+  },
+
+  "bClass Class: HR Tag": {
+    "prefix": "hr-m-1",
+    "body": ["hr-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/poQMvPK"
+  },
+  "bClass HTML: HR Tag hr": {
+    "prefix": "hr-m-1 hr",
+    "body": ["<hr class=\"hr-m-1\" />"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/poQMvPK"
+  },
+
+  "bClass Class: Button": {
+    "prefix": "btn",
+    "body": ["btn"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Button button": {
+    "prefix": "btn button",
+    "body": ["<button class=\"btn\">${1:Tıkla}</button>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Checkbox": {
+    "prefix": "input-checkbox-m-1",
+    "body": ["input-checkbox-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/details/dyQeJbp"
+  },
+  "bClass HTML: Checkbox input": {
+    "prefix": "input-checkbox-m-1 input",
+    "body": ["<input type=\"checkbox\" class=\"input-checkbox-m-1\" />"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/details/dyQeJbp"
+  },
+
+  "bClass Class: Radio": {
+    "prefix": "input-radio-m-1",
+    "body": ["input-radio-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/dygQMva"
+  },
+  "bClass HTML: Radio input": {
+    "prefix": "input-radio-m-1 input",
+    "body": [
+      "<input type=\"radio\" class=\"input-radio-m-1\" name=\"${1:grup1}\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/dygQMva"
+  },
+
+  "bClass Class: Text Input": {
+    "prefix": "input-text-m-1",
+    "body": ["input-text-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/zYmmged"
+  },
+  "bClass HTML: Text Input input": {
+    "prefix": "input-text-m-1 input",
+    "body": [
+      "<input type=\"text\" class=\"input-text-m-1\" placeholder=\"${1:Metin giriniz}\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/zYmmged"
+  },
+
+  "bClass Class: Password Input": {
+    "prefix": "input-password-m-1",
+    "body": ["input-password-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: Password Input input": {
+    "prefix": "input-password-m-1 input",
+    "body": [
+      "<input type=\"password\" class=\"input-password-m-1\" placeholder=\"${1:Şifre giriniz}\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Select": {
+    "prefix": "input-sellect-m-1",
+    "body": ["input-sellect-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/poQXmGg"
+  },
+  "bClass HTML: Select select": {
+    "prefix": "input-sellect-m-1 select",
+    "body": [
+      "<select class=\"input-sellect-m-1\">",
+      "\t<option value=\"${1:1}\">${2:Seçenek 1}</option>",
+      "</select>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/poQXmGg"
+  },
+
+  "bClass Class: File Input": {
+    "prefix": "input-file-m-1",
+    "body": ["input-file-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı"
+  },
+  "bClass HTML: File Input input": {
+    "prefix": "input-file-m-1 input",
+    "body": ["<input type=\"file\" class=\"input-file-m-1\" />"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: Number Input (Numbered)": {
+    "prefix": "input-number-m-",
+    "body": ["input-number-m-${1|1,2,3,4|}"],
+    "description": "[EN] Number input models | [TR] Sayı giriş modelleri"
+  },
+  "bClass HTML: Number Input input": {
+    "prefix": "input-number-m-1 input",
+    "body": [
+      "<input type=\"number\" class=\"input-number-m-1\" placeholder=\"${1:0}\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Class: File Input Preview": {
+    "prefix": "input-file-m-1-preview",
+    "body": ["input-file-m-1-preview"],
+    "description": "[EN] File input with preview | [TR] Önizlemeli dosya yükleme alanı | Ex: https://codepen.io/Endwall/pen/RNbNvrB"
+  },
+  "bClass HTML: File Input Preview div": {
+    "prefix": "input-file-m-1-preview div",
+    "body": [
+      "<div class=\"input-file-m-1-preview\">",
+      "\t<input type=\"file\" />",
+      "</div>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/RNbNvrB"
+  },
+
+  "bClass Class: Fieldset": {
+    "prefix": "fieldset-m-",
+    "body": ["fieldset-m-${1|1,2|}"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/poQMvjL"
+  },
+  "bClass HTML: Fieldset fieldset": {
+    "prefix": "fieldset-m-1 fieldset",
+    "body": [
+      "<fieldset class=\"fieldset-m-1\">",
+      "\t<legend>${1:Başlık}</legend>",
+      "\t${2:İçerik...}",
+      "</fieldset>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/poQMvjL"
+  },
+
+  "bClass Class: Details": {
+    "prefix": "details-m-1",
+    "body": ["details-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/rNQJRBP"
+  },
+  "bClass HTML: Details details": {
+    "prefix": "details-m-1 details",
+    "body": [
+      "<details class=\"details-m-1\">",
+      "\t<summary>${1:Detaylar}</summary>",
+      "\t<p>${2:İçerik...}</p>",
+      "</details>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/rNQJRBP"
+  },
+
+  "bClass Class: Dropdown": {
+    "prefix": "dropdown-m-",
+    "body": [
+      "dropdown-m-${1|1,1-btn,2,2-sub,3,3-hideable,3-btn,3-title,3-min,3-max,3-hover|}"
+    ],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/abPJYKp"
+  },
+  "bClass HTML: Dropdown div": {
+    "prefix": "dropdown-m-1 div",
+    "body": [
+      "<div class=\"dropdown-m-1\">",
+      "\t<button class=\"dropdown-m-1-btn\">${1:Menü}</button>",
+      "\t<div class=\"dropdown-m-1-sub\">",
+      "\t\t${2:Alt elemanlar...}",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/abPJYKp"
+  },
+
+  "bClass Class: Login Model": {
+    "prefix": "login-m-1",
+    "body": ["login-m-1"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/yLroeey"
+  },
+  "bClass HTML: Login Model div": {
+    "prefix": "login-m-1 div",
+    "body": ["<div class=\"login-m-1\">", "\t${1:}", "</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/yLroeey"
+  },
+  "bClass Class: Item Count": {
+    "prefix": "item-",
+    "body": ["item-${1|count,count-result|}"],
+    "description": "[EN] Class only | [TR] Sadece class adı | Ex: https://codepen.io/Endwall/pen/dyQeJbp"
+  },
+  "bClass HTML: Item Count div": {
+    "prefix": "item-count div",
+    "body": [
+      "<div class=\"item-count\">",
+      "\t<div class=\"item\">${1:Eleman}</div>",
+      "\t<div class=\"item\">${2:Eleman}</div>",
+      "\t<div class=\"item-count-result\"></div>",
+      "</div>"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı | Ex: https://codepen.io/Endwall/pen/dyQeJbp"
+  },
+
+  "bClass Class: Dynamic Utility": {
+    "prefix": "dynamic:",
+    "body": ["dynamic:"],
+    "description": "[EN] Variable class | [TR] Değişken class"
+  },
+  "bClass Class: Active States": {
+    "prefix": "active",
+    "body": ["active"],
+    "description": "[EN] State classes | [TR] Durum sınıfları"
+  },
+  "bClass Class: Visible States": {
+    "prefix": "visible",
+    "body": ["visible"],
+    "description": "[EN] State classes | [TR] Durum sınıfları"
+  },
+
+  "bClass Class: Arrow Left (Numbered)": {
+    "prefix": "arrow-l-m-",
+    "body": ["arrow-l-m-${1|1,2,3,4,5,6|}"],
+    "description": "[EN] Numbered left arrow | [TR] Numaralı sol ok"
+  },
+  "bClass Class: Arrow Right (Numbered)": {
+    "prefix": "arrow-r-m-",
+    "body": ["arrow-r-m-${1|1,2,3,4,5,6|}"],
+    "description": "[EN] Numbered right arrow | [TR] Numaralı sağ ok"
+  },
+
+  "bClass Class: Chat Bubble Left": {
+    "prefix": "chat-bubble-l-m-1",
+    "body": ["chat-bubble-l-m-1"],
+    "description": "[EN] Chat bubble left | [TR] Sol chat balonu | Ex: https://codepen.io/Endwall/details/qBJLaLX"
+  },
+  "bClass Class: Chat Bubble Right": {
+    "prefix": "chat-bubble-r-m-1",
+    "body": ["chat-bubble-r-m-1"],
+    "description": "[EN] Chat bubble right | [TR] Sağ chat balonu | Ex: https://codepen.io/Endwall/details/qBJLaLX"
+  },
+
+  "bClass Class: Responsive Grid (Content List)": {
+    "prefix": "content-list-col-",
+    "body": [
+      "content-list-col-${1|1,2,2-mobil,2-tablet,2-tablet-pc,3,3-tablet,3-tablet-pc,4,4-tablet,4-tablet-pc,5,5-tablet-pc,5-pc|}"
+    ],
+    "description": "[EN] Responsive grid system | [TR] Responsive grid sistemi | Ex: https://codepen.io/Endwall/pen/YzRJgmB"
+  },
+
+  "bClass Class: Dynamic Grid System": {
+    "prefix": "dynamic:content-list-",
+    "body": [
+      "dynamic:content-list-${1|col,col-mobil,col-tablet,col-tablet-pc,col-pc|}"
+    ],
+    "description": "[EN] Variable grid system | [TR] Değişken grid sistemi | Ex: https://codepen.io/Endwall/pen/YzRJgmB"
+  },
+  "bClass Class: Rounded Utility": {
+    "prefix": "dynamic:rounded-",
+    "body": [
+      "dynamic:rounded-${1|0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,1.5,2,2.5,3,3.5,4,4.5,5|}"
+    ],
+    "description": "[EN] Ready rounded component | [TR] Hazır yuvarlatma bileşeni"
+  },
+  "bClass Class: Cookie System": {
+    "prefix": "cookies-",
+    "body": ["cookies-${1|confirmation,confirmation-close|}"],
+    "description": "[EN] Cookie notification system | [TR] Çerez bildirim sistemi | Ex: https://codepen.io/Endwall/pen/PoyxgXX"
+  },
+  "bClass Class: Data Attribute": {
+    "prefix": "data-",
+    "body": [
+      "data-${1|title,title-top,title-bottom,title-left,title-right|}=\"\""
+    ],
+    "description": "[EN] Data attribute generator | [TR] Data attribute oluşturucu | Ex: https://codepen.io/Endwall/pen/GRwVgqj"
+  },
+  "bClass Class: Roadmap (Numbered)": {
+    "prefix": "roadmap-m-",
+    "body": ["roadmap-m-${1|1,2,2-icon|}"],
+    "description": "[EN] Ready roadmap component | [TR] Hazır yol haritası bileşeni | Ex: https://codepen.io/Endwall/pen/GRYPexq"
+  },
+
+  "bClass Class: Body Model (Complex)": {
+    "prefix": "body-model",
+    "body": [
+      "${1|edge,edged,triangle-experimental-model-1,triangle-experimental-model-2,triangle-experimental-model-3|}"
+    ],
+    "description": "[EN] Ready body model component | [TR] Hazır gövde modeli bileşeni | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Edge": {
+    "prefix": "edge",
+    "body": ["edge"],
+    "description": "[EN] Body model edge | [TR] Gövde modeli kenar | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Edged": {
+    "prefix": "edged",
+    "body": ["edged"],
+    "description": "[EN] Body model edged | [TR] Gövde modeli kenarlı | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Solid": {
+    "prefix": "solid",
+    "body": ["solid"],
+    "description": "[EN] Body model solid | [TR] Gövde modeli dolu | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Triangle 1": {
+    "prefix": "triangle-experimental-model-1",
+    "body": ["triangle-experimental-model-1"],
+    "description": "[EN] Body model triangle 1 | [TR] Gövde modeli üçgen 1 | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Triangle 2": {
+    "prefix": "triangle-experimental-model-2",
+    "body": ["triangle-experimental-model-2"],
+    "description": "[EN] Body model triangle 2 | [TR] Gövde modeli üçgen 2 | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Body Model Triangle 3": {
+    "prefix": "triangle-experimental-model-3",
+    "body": ["triangle-experimental-model-3"],
+    "description": "[EN] Body model triangle 3 | [TR] Gövde modeli üçgen 3 | Ex: https://codepen.io/Endwall/pen/PoyVByG"
+  },
+  "bClass Class: Input Range": {
+    "prefix": "input-range-m-1",
+    "body": ["input-range-m-1"],
+    "description": "[EN] Ready input range component | [TR] Hazır input range bileşeni | Ex: https://codepen.io/Endwall/pen/LYMpzda"
+  },
+
+  "bClass Class: Input Checkbox (Numbered)": {
+    "prefix": "input-checkbox-m-",
+    "body": ["input-checkbox-m-${1|1,2,3,4,5,6|}"],
+    "description": "[EN] Numbered input checkbox | [TR] Numaralı input checkbox | Ex: https://codepen.io/Endwall/details/dyQeJbp"
+  },
+
+  "bClass Class: Input Radio (Numbered)": {
+    "prefix": "input-radio-m-",
+    "body": ["input-radio-m-${1|1,2,3,4|}"],
+    "description": "[EN] Numbered input radio | [TR] Numaralı input radio | Ex: https://codepen.io/Endwall/pen/dygQMva"
+  },
+
+  "bClass Class: OR Component": {
+    "prefix": "or-m-1",
+    "body": ["or-m-1"],
+    "description": "[EN] Ready or component | [TR] Hazır or bileşeni | Ex: https://codepen.io/Endwall/pen/poxMvog"
+  },
+
+  "bClass Class: Unlimited Roadmap": {
+    "prefix": "unlimited:roadmap-m-",
+    "body": ["unlimited:roadmap-m-${1|1,2,2-icon|}"],
+    "description": "[EN] Unlimited roadmap component | [TR] Sınırsız roadmap bileşeni | Ex: https://codepen.io/Endwall/pen/GRYPexq"
+  },
+  "bClass Class: Dynamic List (UL/LI)": {
+    "prefix": "ul-li-",
+    "body": [
+      "ul-li-${1|x,y,x-list,y-list,x-scroll,y-scroll,x-scroll-hide,y-scroll-hide,x-line,y-line,x-line-a,y-line-a|}"
+    ],
+    "description": "[EN] Dynamic list component | [TR] Dinamik liste bileşeni | Ex: https://codepen.io/Endwall/pen/qBJQood"
+  }
+}

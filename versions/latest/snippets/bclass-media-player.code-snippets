@@ -1,0 +1,593 @@
+{
+  "Sound Player Settings (JS)": {
+    "prefix": "soundPlayerSettings",
+    "body": [
+      "const soundPlayerSettings = {",
+      "\tHoverLoad: ${1|true,false|}, // Play on mouse hover",
+      "\tSkipTime: ${2:5}, // Time (seconds) for forward/rewind",
+      "\tSubTitleApi: \"${3:/api/subtitle/}\" // Subtitle API path",
+      "};"
+    ],
+    "description": "Audio player configuration object"
+  },
+  "Simple Audio Player (HTML)": {
+    "prefix": [
+      "sound-player-simple",
+      "sound-player-html"
+    ],
+    "body": [
+      "<div class=\"sound-player-container\">",
+      "\t<audio preload=\"none\" src=\"${1:sound.mp3}\"></audio>",
+      "\t<div class=\"sound-player-poster\">",
+      "\t\t<img src=\"${2:cover.jpg}\" alt=\"${3:Album Cover}\" />",
+      "\t</div>",
+      "\t<div class=\"sound-player-controls\">",
+      "\t\t<h2 class=\"sound-player-title\">${4:Track Title}</h2>",
+      "\t\t<h3 class=\"sound-player-artist-name\">${5:Artist Name}</h3>",
+      "\t\t<div class=\"d-flex justify-content-center gap-1\">",
+      "\t\t\t<button class=\"sound-player-prev-btn\"><i class=\"fa-solid fa-backward-step\"></i></button>",
+      "\t\t\t<button class=\"sound-player-play-pause-btn\"><i class=\"fa-solid fa-play\"></i></button>",
+      "\t\t\t<button class=\"sound-player-next-btn\"><i class=\"fa-solid fa-forward-step\"></i></button>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Simple audio player markup"
+  },
+  "Simple Video Player (HTML)": {
+    "prefix": [
+      "video-player-simple",
+      "video-player-html"
+    ],
+    "body": [
+      "<div class=\"video-player-container\">",
+      "\t<video preload=\"none\" poster=\"${1:poster.jpg}\" src=\"${2:video.mp4}\"></video>",
+      "\t<div class=\"video-player-controls\">",
+      "\t\t<div class=\"d-flex justify-content-center gap-1\">",
+      "\t\t\t<button class=\"video-player-prev-btn\"><i class=\"fa-solid fa-backward-step\"></i></button>",
+      "\t\t\t<button class=\"video-player-play-pause-btn\"><i class=\"fa-solid fa-play\"></i></button>",
+      "\t\t\t<button class=\"video-player-next-btn\"><i class=\"fa-solid fa-forward-step\"></i></button>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Simple video player markup"
+  },
+  "Subtitle Track": {
+    "prefix": [
+      "track-subtitles",
+      "track[kind='subtitles']"
+    ],
+    "body": [
+      "<track kind=\"subtitles\" srclang=\"${1:en}\" src=\"${2:/path/to/subtitle.srt}\" label=\"${3:English}\" />"
+    ],
+    "description": "Subtitle track element"
+  },
+  "Video Quality Sources": {
+    "prefix": [
+      "video-qualities",
+      "video-sources-qualities"
+    ],
+    "body": [
+      "<source src=\"${1:video-1080.mp4}\" type=\"video/mp4\" label=\"1080p\" />",
+      "<source src=\"${2:video-720.mp4}\" type=\"video/mp4\" label=\"720p\" />",
+      "<source src=\"${3:video-480.mp4}\" type=\"video/mp4\" label=\"480p\" />"
+    ],
+    "description": "Video multi-quality source list"
+  },
+  "Audio Quality Sources": {
+    "prefix": [
+      "audio-qualities",
+      "audio-sources-qualities"
+    ],
+    "body": [
+      "<source src=\"${1:audio-320kbps.mp3}\" type=\"audio/mpeg\" label=\"320kbps\" />",
+      "<source src=\"${2:audio-128kbps.mp3}\" type=\"audio/mpeg\" label=\"128kbps\" />"
+    ],
+    "description": "Audio multi-quality source list"
+  },
+  "Sound: .sound-player-container": {
+    "prefix": "sound-player-container",
+    "body": [
+      "sound-player-container"
+    ],
+    "description": "Main container of the audio player"
+  },
+  "Sound: .sound-player-broken": {
+    "prefix": "sound-player-broken",
+    "body": [
+      "sound-player-broken"
+    ],
+    "description": "Error message displayed when audio fails to load"
+  },
+  "Sound: .sound-player-screen": {
+    "prefix": "sound-player-screen",
+    "body": [
+      "sound-player-screen"
+    ],
+    "description": "Player screen (visual area)"
+  },
+  "Sound: .sound-player-hover-load": {
+    "prefix": "sound-player-hover-load",
+    "body": [
+      "sound-player-hover-load"
+    ],
+    "description": "Button that starts playback on mouse hover"
+  },
+  "Sound: .sound-player-loading": {
+    "prefix": "sound-player-loading",
+    "body": [
+      "sound-player-loading"
+    ],
+    "description": "Animation shown while the audio file is loading"
+  },
+  "Sound: .sound-player-album": {
+    "prefix": "sound-player-album",
+    "body": [
+      "sound-player-album"
+    ],
+    "description": "Album name display"
+  },
+  "Sound: .sound-player-title": {
+    "prefix": "sound-player-title",
+    "body": [
+      "sound-player-title"
+    ],
+    "description": "Track title"
+  },
+  "Sound: .sound-player-artist-name": {
+    "prefix": "sound-player-artist-name",
+    "body": [
+      "sound-player-artist-name"
+    ],
+    "description": "Artist name"
+  },
+  "Sound: .sound-player-poster": {
+    "prefix": "sound-player-poster",
+    "body": [
+      "sound-player-poster"
+    ],
+    "description": "Album cover"
+  },
+  "Sound: .sound-player-current-time": {
+    "prefix": "sound-player-current-time",
+    "body": [
+      "sound-player-current-time"
+    ],
+    "description": "Audio current time display"
+  },
+  "Sound: .sound-player-total-time": {
+    "prefix": "sound-player-total-time",
+    "body": [
+      "sound-player-total-time"
+    ],
+    "description": "Audio total duration display"
+  },
+  "Sound: .sound-player-timmer": {
+    "prefix": "sound-player-timmer",
+    "body": [
+      "sound-player-timmer"
+    ],
+    "description": "Audio progress bar"
+  },
+  "Sound: .sound-player-timmer-hover": {
+    "prefix": "sound-player-timmer-hover",
+    "body": [
+      "sound-player-timmer-hover"
+    ],
+    "description": "Time information shown on hover over progress bar"
+  },
+  "Sound: .sound-player-center-controls": {
+    "prefix": "sound-player-center-controls",
+    "body": [
+      "sound-player-center-controls"
+    ],
+    "description": "Center controls (forward/backward buttons)"
+  },
+  "Sound: .sound-player-back-btn": {
+    "prefix": "sound-player-back-btn",
+    "body": [
+      "sound-player-back-btn"
+    ],
+    "description": "Back button"
+  },
+  "Sound: .sound-player-forward-btn": {
+    "prefix": "sound-player-forward-btn",
+    "body": [
+      "sound-player-forward-btn"
+    ],
+    "description": "Forward button"
+  },
+  "Sound: .sound-player-controls": {
+    "prefix": "sound-player-controls",
+    "body": [
+      "sound-player-controls"
+    ],
+    "description": "General control panel"
+  },
+  "Sound: .sound-player-volume": {
+    "prefix": "sound-player-volume",
+    "body": [
+      "sound-player-volume"
+    ],
+    "description": "Volume control slider"
+  },
+  "Sound: .sound-player-volume-icon": {
+    "prefix": "sound-player-volume-icon",
+    "body": [
+      "sound-player-volume-icon"
+    ],
+    "description": "Volume icon"
+  },
+  "Sound: .sound-player-shuffle-btn": {
+    "prefix": "sound-player-shuffle-btn",
+    "body": [
+      "sound-player-shuffle-btn"
+    ],
+    "description": "Shuffle mode button"
+  },
+  "Sound: .sound-player-shuffle-icon": {
+    "prefix": "sound-player-shuffle-icon",
+    "body": [
+      "sound-player-shuffle-icon"
+    ],
+    "description": "Shuffle mode icon"
+  },
+  "Sound: .sound-player-prev-btn": {
+    "prefix": "sound-player-prev-btn",
+    "body": [
+      "sound-player-prev-btn"
+    ],
+    "description": "Previous track button"
+  },
+  "Sound: .sound-player-play-pause-btn": {
+    "prefix": "sound-player-play-pause-btn",
+    "body": [
+      "sound-player-play-pause-btn"
+    ],
+    "description": "Play/Pause button"
+  },
+  "Sound: .sound-player-next-btn": {
+    "prefix": "sound-player-next-btn",
+    "body": [
+      "sound-player-next-btn"
+    ],
+    "description": "Next track button"
+  },
+  "Sound: .sound-player-autoplay-btn": {
+    "prefix": "sound-player-autoplay-btn",
+    "body": [
+      "sound-player-autoplay-btn"
+    ],
+    "description": "Autoplay button"
+  },
+  "Sound: .sound-player-speed-btn": {
+    "prefix": "sound-player-speed-btn",
+    "body": [
+      "sound-player-speed-btn"
+    ],
+    "description": "Playback speed setting buttons"
+  },
+  "Sound: .sound-player-speed-text": {
+    "prefix": "sound-player-speed-text",
+    "body": [
+      "sound-player-speed-text"
+    ],
+    "description": "Speed value display"
+  },
+  "Sound: .sound-player-subtitle-btn": {
+    "prefix": "sound-player-subtitle-btn",
+    "body": [
+      "sound-player-subtitle-btn"
+    ],
+    "description": "Subtitle selection button"
+  },
+  "Sound: .sound-player-subtitle-text": {
+    "prefix": "sound-player-subtitle-text",
+    "body": [
+      "sound-player-subtitle-text"
+    ],
+    "description": "Selected subtitle info"
+  },
+  "Sound: .sound-player-subtitle-texts": {
+    "prefix": "sound-player-subtitle-texts",
+    "body": [
+      "sound-player-subtitle-texts"
+    ],
+    "description": "Real-time subtitle display container"
+  },
+  "Sound: .sound-player-quality-btn": {
+    "prefix": "sound-player-quality-btn",
+    "body": [
+      "sound-player-quality-btn"
+    ],
+    "description": "Audio quality options button"
+  },
+  "Sound: .sound-player-quality-text": {
+    "prefix": "sound-player-quality-text",
+    "body": [
+      "sound-player-quality-text"
+    ],
+    "description": "Selected audio quality display"
+  },
+  "Sound: .sound-player-nextplay-btn": {
+    "prefix": "sound-player-nextplay-btn",
+    "body": [
+      "sound-player-nextplay-btn"
+    ],
+    "description": "Next play mode button"
+  },
+  "Sound: .sound-player-repeat-btn": {
+    "prefix": "sound-player-repeat-btn",
+    "body": [
+      "sound-player-repeat-btn"
+    ],
+    "description": "Repeat mode button"
+  },
+  "Sound: .sound-player-repeat-icon": {
+    "prefix": "sound-player-repeat-icon",
+    "body": [
+      "sound-player-repeat-icon"
+    ],
+    "description": "Repeat mode icon"
+  },
+  "Video: .video-player-container": {
+    "prefix": "video-player-container",
+    "body": [
+      "video-player-container"
+    ],
+    "description": "Main container of the video player"
+  },
+  "Video: .video-player-broken": {
+    "prefix": "video-player-broken",
+    "body": [
+      "video-player-broken"
+    ],
+    "description": "Error message displayed when video fails to load"
+  },
+  "Video: .video-player-screen": {
+    "prefix": "video-player-screen",
+    "body": [
+      "video-player-screen"
+    ],
+    "description": "Player screen (visual area)"
+  },
+  "Video: .video-player-hover-load": {
+    "prefix": "video-player-hover-load",
+    "body": [
+      "video-player-hover-load"
+    ],
+    "description": "Button that starts playback on mouse hover"
+  },
+  "Video: .video-player-loading": {
+    "prefix": "video-player-loading",
+    "body": [
+      "video-player-loading"
+    ],
+    "description": "Animation shown while video is loading"
+  },
+  "Video: .video-player-album": {
+    "prefix": "video-player-album",
+    "body": [
+      "video-player-album"
+    ],
+    "description": "Album name display"
+  },
+  "Video: .video-player-title": {
+    "prefix": "video-player-title",
+    "body": [
+      "video-player-title"
+    ],
+    "description": "Track title"
+  },
+  "Video: .video-player-artist-name": {
+    "prefix": "video-player-artist-name",
+    "body": [
+      "video-player-artist-name"
+    ],
+    "description": "Artist name"
+  },
+  "Video: .video-player-current-time": {
+    "prefix": "video-player-current-time",
+    "body": [
+      "video-player-current-time"
+    ],
+    "description": "Video current time display"
+  },
+  "Video: .video-player-total-time": {
+    "prefix": "video-player-total-time",
+    "body": [
+      "video-player-total-time"
+    ],
+    "description": "Video total duration display"
+  },
+  "Video: .video-player-timmer": {
+    "prefix": "video-player-timmer",
+    "body": [
+      "video-player-timmer"
+    ],
+    "description": "Video progress bar"
+  },
+  "Video: .video-player-timmer-hover": {
+    "prefix": "video-player-timmer-hover",
+    "body": [
+      "video-player-timmer-hover"
+    ],
+    "description": "Time information shown on hover over progress bar"
+  },
+  "Video: .video-player-center-controls": {
+    "prefix": "video-player-center-controls",
+    "body": [
+      "video-player-center-controls"
+    ],
+    "description": "Center controls (forward/backward buttons)"
+  },
+  "Video: .video-player-back-btn": {
+    "prefix": "video-player-back-btn",
+    "body": [
+      "video-player-back-btn"
+    ],
+    "description": "Back button"
+  },
+  "Video: .video-player-forward-btn": {
+    "prefix": "video-player-forward-btn",
+    "body": [
+      "video-player-forward-btn"
+    ],
+    "description": "Forward button"
+  },
+  "Video: .video-player-controls": {
+    "prefix": "video-player-controls",
+    "body": [
+      "video-player-controls"
+    ],
+    "description": "General control panel"
+  },
+  "Video: .video-player-volume": {
+    "prefix": "video-player-volume",
+    "body": [
+      "video-player-volume"
+    ],
+    "description": "Volume control"
+  },
+  "Video: .video-player-volume-icon": {
+    "prefix": "video-player-volume-icon",
+    "body": [
+      "video-player-volume-icon"
+    ],
+    "description": "Volume icon"
+  },
+  "Video: .video-player-shuffle-btn": {
+    "prefix": "video-player-shuffle-btn",
+    "body": [
+      "video-player-shuffle-btn"
+    ],
+    "description": "Shuffle mode button"
+  },
+  "Video: .video-player-shuffle-icon": {
+    "prefix": "video-player-shuffle-icon",
+    "body": [
+      "video-player-shuffle-icon"
+    ],
+    "description": "Shuffle mode icon"
+  },
+  "Video: .video-player-prev-btn": {
+    "prefix": "video-player-prev-btn",
+    "body": [
+      "video-player-prev-btn"
+    ],
+    "description": "Previous track button"
+  },
+  "Video: .video-player-play-pause-btn": {
+    "prefix": "video-player-play-pause-btn",
+    "body": [
+      "video-player-play-pause-btn"
+    ],
+    "description": "Play/Pause button"
+  },
+  "Video: .video-player-next-btn": {
+    "prefix": "video-player-next-btn",
+    "body": [
+      "video-player-next-btn"
+    ],
+    "description": "Next track button"
+  },
+  "Video: .video-player-autoplay-btn": {
+    "prefix": "video-player-autoplay-btn",
+    "body": [
+      "video-player-autoplay-btn"
+    ],
+    "description": "Autoplay button"
+  },
+  "Video: .video-player-speed-btn": {
+    "prefix": "video-player-speed-btn",
+    "body": [
+      "video-player-speed-btn"
+    ],
+    "description": "Playback speed setting buttons"
+  },
+  "Video: .video-player-speed-text": {
+    "prefix": "video-player-speed-text",
+    "body": [
+      "video-player-speed-text"
+    ],
+    "description": "Speed value display"
+  },
+  "Video: .video-player-subtitle-btn": {
+    "prefix": "video-player-subtitle-btn",
+    "body": [
+      "video-player-subtitle-btn"
+    ],
+    "description": "Subtitle selection buttons"
+  },
+  "Video: .video-player-subtitle-text": {
+    "prefix": "video-player-subtitle-text",
+    "body": [
+      "video-player-subtitle-text"
+    ],
+    "description": "Selected subtitle info"
+  },
+  "Video: .video-player-quality-btn": {
+    "prefix": "video-player-quality-btn",
+    "body": [
+      "video-player-quality-btn"
+    ],
+    "description": "Quality options button"
+  },
+  "Video: .video-player-quality-text": {
+    "prefix": "video-player-quality-text",
+    "body": [
+      "video-player-quality-text"
+    ],
+    "description": "Selected quality display"
+  },
+  "Video: .video-player-nextplay-btn": {
+    "prefix": "video-player-nextplay-btn",
+    "body": [
+      "video-player-nextplay-btn"
+    ],
+    "description": "Next play mode button"
+  },
+  "Video: .video-player-descriptions-btn": {
+    "prefix": "video-player-descriptions-btn",
+    "body": [
+      "video-player-descriptions-btn"
+    ],
+    "description": "Description mode button"
+  },
+  "Video: .video-player-repeat-btn": {
+    "prefix": "video-player-repeat-btn",
+    "body": [
+      "video-player-repeat-btn"
+    ],
+    "description": "Repeat mode button"
+  },
+  "Video: .video-player-repeat-icon": {
+    "prefix": "video-player-repeat-icon",
+    "body": [
+      "video-player-repeat-icon"
+    ],
+    "description": "Repeat mode icon"
+  },
+  "Video: .video-player-fullscreen-btn": {
+    "prefix": "video-player-fullscreen-btn",
+    "body": [
+      "video-player-fullscreen-btn"
+    ],
+    "description": "Fullscreen toggle button"
+  },
+  "Video: .video-player-cinema-btn": {
+    "prefix": "video-player-cinema-btn",
+    "body": [
+      "video-player-cinema-btn"
+    ],
+    "description": "Cinema mode toggle button"
+  },
+  "Video: .video-player-pip-btn": {
+    "prefix": "video-player-pip-btn",
+    "body": [
+      "video-player-pip-btn"
+    ],
+    "description": "Picture-in-Picture (Pip) toggle button"
+  }
+}

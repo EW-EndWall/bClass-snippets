@@ -1,0 +1,229 @@
+{
+  "Theme JS: Include Script Tag": {
+    "prefix": [
+      "bClass-theme-js",
+      "script:bClass-theme-js"
+    ],
+    "body": [
+      "<script src=\"${1:./bClass-theme-js.js}\"></script>"
+    ],
+    "description": "bClass Theme JS: Script include tag"
+  },
+  "Dynamic: Width [size]": {
+    "prefix": "w-[",
+    "body": [
+      "w-[${1:100px}]"
+    ],
+    "description": "Dynamic Width: e.g. w-[10px], w-[5rem], w-[50%]"
+  },
+  "Dynamic: Height [size]": {
+    "prefix": "h-[",
+    "body": [
+      "h-[${1:100px}]"
+    ],
+    "description": "Dynamic Height: e.g. h-[10px], h-[5rem], h-[100%]"
+  },
+  "Dynamic: Margin [size]": {
+    "prefix": "m-[",
+    "body": [
+      "m-[${1:10px}]"
+    ],
+    "description": "Dynamic Margin: e.g. m-[1rem]"
+  },
+  "Dynamic: Margin Directional [size]": {
+    "prefix": [
+      "mt-[",
+      "mb-[",
+      "ml-[",
+      "mr-[",
+      "m-dir-["
+    ],
+    "body": [
+      "m${1|t,b,l,r|}-[${2:10px}]"
+    ],
+    "description": "Dynamic Margin Top/Bottom/Left/Right: e.g. mt-[1rem], mb-[20px]"
+  },
+  "Dynamic: Padding [size]": {
+    "prefix": "p-[",
+    "body": [
+      "p-[${1:10px}]"
+    ],
+    "description": "Dynamic Padding: e.g. p-[1rem]"
+  },
+  "Dynamic: Padding Directional [size]": {
+    "prefix": [
+      "pt-[",
+      "pb-[",
+      "pl-[",
+      "pr-[",
+      "p-dir-["
+    ],
+    "body": [
+      "p${1|t,b,l,r|}-[${2:10px}]"
+    ],
+    "description": "Dynamic Padding Top/Bottom/Left/Right: e.g. pt-[1rem], pb-[20px]"
+  },
+  "Dynamic: Position Coordinate [size]": {
+    "prefix": [
+      "top-[",
+      "bottom-[",
+      "left-[",
+      "right-["
+    ],
+    "body": [
+      "${1|top,bottom,left,right|}-[${2:0px}]"
+    ],
+    "description": "Dynamic Positioning: top-[0], bottom-[10px], left-[5rem], right-[0]"
+  },
+  "Dynamic: Background [color]": {
+    "prefix": "bg-[",
+    "body": [
+      "bg-[${1:red}]"
+    ],
+    "description": "Dynamic Background: e.g. bg-[red], bg-[#333], bg-[rgba(0,0,0,0.5)]"
+  },
+  "Dynamic: Text Color [color]": {
+    "prefix": "color-[",
+    "body": [
+      "color-[${1:white}]"
+    ],
+    "description": "Dynamic Color: e.g. color-[white], color-[rgb(255,0,0)]"
+  },
+  "Dynamic: Font Size [size]": {
+    "prefix": "font-size-[",
+    "body": [
+      "font-size-[${1:16px}]"
+    ],
+    "description": "Dynamic Font Size: e.g. font-size-[1.2rem], font-size-[18px]"
+  },
+  "Dynamic: Transform [value]": {
+    "prefix": "transform-[",
+    "body": [
+      "transform-[${1:scale(1.1)}]"
+    ],
+    "description": "Dynamic Transform: e.g. transform-[scale(1.1)], transform-[rotate(45deg)]"
+  },
+  "Dynamic: Rounded [size]": {
+    "prefix": "rounded-[",
+    "body": [
+      "rounded-[${1:8px}]"
+    ],
+    "description": "Dynamic Border Radius: e.g. rounded-[10px], rounded-[50%]"
+  },
+  "Dynamic: Rounded Corner [size]": {
+    "prefix": [
+      "rounded-tl-[",
+      "rounded-tr-[",
+      "rounded-bl-[",
+      "rounded-br-["
+    ],
+    "body": [
+      "rounded-${1|tl,tr,bl,br|}-[${2:8px}]"
+    ],
+    "description": "Dynamic Corner Radius: rounded-tl-[8px], rounded-tr-[8px]..."
+  },
+  "Dynamic: Gap [size]": {
+    "prefix": "gap-[",
+    "body": [
+      "gap-[${1:1rem}]"
+    ],
+    "description": "Dynamic Flex/Grid Gap: e.g. gap-[10px], gap-[1rem]"
+  },
+  "Dynamic: Filter [value]": {
+    "prefix": "filter-[",
+    "body": [
+      "filter-[${1|blur(5px),grayscale(100%),invert(100%),brightness(1.2),contrast(1.5)|}]"
+    ],
+    "description": "Dynamic Filter: e.g. filter-[blur(5px)], filter-[grayscale(100%)]"
+  },
+  "Dynamic: Content [value]": {
+    "prefix": "content-[",
+    "body": [
+      "content-[${1:text}]"
+    ],
+    "description": "Dynamic Content: e.g. content-[example], content-[attr(data-title)]"
+  },
+  "Dynamic: Custom Property [prop:value]": {
+    "prefix": [
+      "[prop:value]",
+      "[property:value]"
+    ],
+    "body": [
+      "[${1:property}:${2:value}]"
+    ],
+    "description": "Dynamic Raw Property: e.g. [color:red], [opacity:0.8]"
+  },
+  "State Modifier: Select": {
+    "prefix": "state:",
+    "body": [
+      "${1|hover,focus,active,before,after,first-of-type,last-of-type,checked,disabled,enabled|}:${2:class}"
+    ],
+    "description": "Pseudo-class and state prefix helper"
+  },
+  "Class: .ul-li-x-scroll": {
+    "prefix": "ul-li-x-scroll",
+    "body": [
+      "ul-li-x-scroll"
+    ],
+    "description": "List with mouse wheel horizontal scroll behavior"
+  },
+  "Class: .ul-li-x-scroll-hidden": {
+    "prefix": "ul-li-x-scroll-hidden",
+    "body": [
+      "ul-li-x-scroll-hidden"
+    ],
+    "description": "List with mouse wheel horizontal scroll behavior (scrollbar hidden)"
+  },
+  "Class: .current-year": {
+    "prefix": "current-year",
+    "body": [
+      "current-year"
+    ],
+    "description": "Element dynamically filled with current year by bClass JS"
+  },
+  "Element: Formatted Tel Input": {
+    "prefix": [
+      "input-tel-formatted",
+      "input-tel"
+    ],
+    "body": [
+      "<input type=\"tel\" id=\"${1:phone}\" maxlength=\"21\" placeholder=\"(1111) 1111 1111 1111\" ${2:required} />"
+    ],
+    "description": "Phone number input automatically formatted by bClass JS"
+  },
+  "Dynamic: Text Color [text-[color]]": {
+    "prefix": "text-[",
+    "body": [
+      "text-[${1:color}]"
+    ],
+    "description": "Dynamic Text Color: e.g. text-[red], text-[#fff]"
+  },
+  "Dynamic Content: attr()": {
+    "prefix": "content-[attr",
+    "body": [
+      "content-[attr(${1:data-content})]"
+    ],
+    "description": "Dynamic content from data attribute"
+  },
+  "Dynamic Content: var()": {
+    "prefix": "content-[var",
+    "body": [
+      "content-[var(${1:--variable})]"
+    ],
+    "description": "Dynamic content from CSS variable"
+  },
+  "Dynamic Content: url()": {
+    "prefix": "content-[url",
+    "body": [
+      "content-[url(${1:link})]"
+    ],
+    "description": "Dynamic content from image/link url"
+  },
+  "Dynamic Content: counter()": {
+    "prefix": "content-[counter",
+    "body": [
+      "content-[counter(${1:name})]"
+    ],
+    "description": "Dynamic content from CSS counter"
+  }
+}

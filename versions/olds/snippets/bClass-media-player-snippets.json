@@ -1,0 +1,432 @@
+{
+  "bClass Audio: Container": {
+    "prefix": "sound-player-container",
+    "body": ["sound-player-container"],
+    "description": "[EN] Main container | [TR] Ses oynatıcı ana kapsayıcı"
+  },
+  "bClass HTML: Audio Container": {
+    "prefix": "sound-player-container div",
+    "body": ["<div class=\"sound-player-container\">", "\t${1:}", "</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Broken Error": {
+    "prefix": "sound-player-broken",
+    "body": ["sound-player-broken"],
+    "description": "[EN] Error message on load fail | [TR] Yükleme hatası mesajı"
+  },
+  "bClass Audio: Screen": {
+    "prefix": "sound-player-screen",
+    "body": ["sound-player-screen"],
+    "description": "[EN] Player visual screen | [TR] Oynatıcı görsel ekranı"
+  },
+  "bClass Audio: Hover Load Button": {
+    "prefix": "sound-player-hover-load",
+    "body": ["sound-player-hover-load"],
+    "description": "[EN] Playback start on hover | [TR] Üzerine gelince başlatma butonu"
+  },
+  "bClass Audio: Loading Anim": {
+    "prefix": "sound-player-loading",
+    "body": ["sound-player-loading"],
+    "description": "[EN] Loading animation | [TR] Yükleme animasyonu"
+  },
+
+  "bClass Audio: Album Name": {
+    "prefix": "sound-player-album",
+    "body": ["sound-player-album"],
+    "description": "[EN] Album name display | [TR] Albüm adı görünümü"
+  },
+  "bClass HTML: Audio Album Name": {
+    "prefix": "sound-player-album h2",
+    "body": ["<h2 class=\"sound-player-album\">${1:Albüm Adı}</h2>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Track Title": {
+    "prefix": "sound-player-title",
+    "body": ["sound-player-title"],
+    "description": "[EN] Track title | [TR] Parça başlığı"
+  },
+  "bClass HTML: Audio Track Title": {
+    "prefix": "sound-player-title h2",
+    "body": ["<h2 class=\"sound-player-title\">${1:Şarkı Başlığı}</h2>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Artist Name": {
+    "prefix": "sound-player-artist-name",
+    "body": ["sound-player-artist-name"],
+    "description": "[EN] Artist name | [TR] Sanatçı adı"
+  },
+  "bClass HTML: Audio Artist Name": {
+    "prefix": "sound-player-artist-name h3",
+    "body": ["<h3 class=\"sound-player-artist-name\">${1:Sanatçı Adı}</h3>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Poster Cover": {
+    "prefix": "sound-player-poster",
+    "body": ["sound-player-poster"],
+    "description": "[EN] Album cover | [TR] Albüm kapağı"
+  },
+  "bClass HTML: Audio Poster Cover": {
+    "prefix": "sound-player-poster img",
+    "body": [
+      "<img src=\"${1:cover.jpg}\" class=\"sound-player-poster\" alt=\"${2:cover}\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Current Time": {
+    "prefix": "sound-player-current-time",
+    "body": ["sound-player-current-time"],
+    "description": "[EN] Current time | [TR] Geçen süre"
+  },
+  "bClass Audio: Total Time": {
+    "prefix": "sound-player-total-time",
+    "body": ["sound-player-total-time"],
+    "description": "[EN] Total duration | [TR] Toplam süre"
+  },
+
+  "bClass Audio: Progress Bar Timmer": {
+    "prefix": "sound-player-timmer",
+    "body": ["sound-player-timmer"],
+    "description": "[EN] Progress bar | [TR] İlerleme çubuğu"
+  },
+  "bClass HTML: Audio Progress Bar": {
+    "prefix": "sound-player-timmer input",
+    "body": [
+      "<input type=\"range\" class=\"sound-player-timmer\" min=\"0\" max=\"100\" value=\"0\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Audio: Timmer Hover Info": {
+    "prefix": "sound-player-timmer-hover",
+    "body": ["sound-player-timmer-hover"],
+    "description": "[EN] Time info on mouse hover | [TR] Üzerine gelince süre bilgisi"
+  },
+
+  "bClass Audio: Center Controls": {
+    "prefix": "sound-player-center-controls",
+    "body": ["sound-player-center-controls"],
+    "description": "[EN] Center controls container | [TR] Orta kontroller kapsayıcısı"
+  },
+  "bClass Audio: Back Button": {
+    "prefix": "sound-player-back-btn",
+    "body": ["sound-player-back-btn"],
+    "description": "[EN] Backwards button | [TR] Geri sarma butonu"
+  },
+  "bClass Audio: Forward Button": {
+    "prefix": "sound-player-forward-btn",
+    "body": ["sound-player-forward-btn"],
+    "description": "[EN] Forwards button | [TR] İleri sarma butonu"
+  },
+  "bClass Audio: Play Pause Button": {
+    "prefix": "sound-player-play-pause-btn",
+    "body": ["sound-player-play-pause-btn"],
+    "description": "[EN] Play/Pause button | [TR] Oynat/Duraklat butonu"
+  },
+  "bClass Audio: General Controls": {
+    "prefix": "sound-player-controls",
+    "body": ["sound-player-controls"],
+    "description": "[EN] General control panel | [TR] Genel kontrol paneli"
+  },
+
+  "bClass Audio: Volume Control": {
+    "prefix": "sound-player-volume",
+    "body": ["sound-player-volume"],
+    "description": "[EN] Volume range input | [TR] Ses seviyesi çubuğu"
+  },
+  "bClass Audio: Volume Icon": {
+    "prefix": "sound-player-volume-icon",
+    "body": ["sound-player-volume-icon"],
+    "description": "[EN] Volume icon | [TR] Ses simgesi"
+  },
+  "bClass Audio: Shuffle Button": {
+    "prefix": "sound-player-shuffle-btn",
+    "body": ["sound-player-shuffle-btn"],
+    "description": "[EN] Shuffle mode btn | [TR] Karışık çalma butonu"
+  },
+  "bClass Audio: Shuffle Icon": {
+    "prefix": "sound-player-shuffle-icon",
+    "body": ["sound-player-shuffle-icon"],
+    "description": "[EN] Shuffle mode icon | [TR] Karışık çalma simgesi"
+  },
+  "bClass Audio: Previous Track": {
+    "prefix": "sound-player-prev-btn",
+    "body": ["sound-player-prev-btn"],
+    "description": "[EN] Previous track btn | [TR] Önceki parça butonu"
+  },
+  "bClass Audio: Next Track": {
+    "prefix": "sound-player-next-btn",
+    "body": ["sound-player-next-btn"],
+    "description": "[EN] Next track btn | [TR] Sonraki parça butonu"
+  },
+  "bClass Audio: Autoplay Button": {
+    "prefix": "sound-player-autoplay-btn",
+    "body": ["sound-player-autoplay-btn"],
+    "description": "[EN] Autoplay btn | [TR] Otomatik oynat butonu"
+  },
+
+  "bClass Audio: Speed Buttons": {
+    "prefix": "sound-player-speed-btn",
+    "body": ["sound-player-speed-btn"],
+    "description": "[EN] Speed settings link | [TR] Hız ayarı bağlantısı"
+  },
+  "bClass Audio: Speed Text": {
+    "prefix": "sound-player-speed-text",
+    "body": ["sound-player-speed-text"],
+    "description": "[EN] Speed value text | [TR] Hız değeri metni"
+  },
+
+  "bClass Audio: Subtitle Attribute": {
+    "prefix": "kind-subtitles",
+    "body": [
+      "kind=\"subtitles\" src=\"${1:subtitle.vtt}\" srclang=\"${2:tr}\" label=\"${3:Türkçe}\""
+    ],
+    "description": "[EN] Subtitle track element | [TR] Altyazı özelliği"
+  },
+  "bClass Audio: Subtitle Select Button": {
+    "prefix": "sound-player-subtitle-btn",
+    "body": ["sound-player-subtitle-btn"],
+    "description": "[EN] Subtitle selector | [TR] Altyazı seçici butonu"
+  },
+  "bClass Audio: Subtitle Selected Text": {
+    "prefix": "sound-player-subtitle-text",
+    "body": ["sound-player-subtitle-text"],
+    "description": "[EN] Selected subtitle info | [TR] Seçili altyazı bilgisi"
+  },
+  "bClass Audio: Subtitle Display Screen": {
+    "prefix": "sound-player-subtitle-texts",
+    "body": ["sound-player-subtitle-texts"],
+    "description": "[EN] Real-time subtitle display | [TR] Canlı altyazı gösterim alanı"
+  },
+
+  "bClass Audio: Quality Options": {
+    "prefix": "sound-player-quality-btn",
+    "body": ["sound-player-quality-btn"],
+    "description": "[EN] Quality options btn | [TR] Kalite seçenek butonu"
+  },
+  "bClass Audio: Quality Text": {
+    "prefix": "sound-player-quality-text",
+    "body": ["sound-player-quality-text"],
+    "description": "[EN] Selected quality info | [TR] Seçili kalite metni"
+  },
+
+  "bClass Audio: Nextplay Mode": {
+    "prefix": "sound-player-nextplay-btn",
+    "body": ["sound-player-nextplay-btn"],
+    "description": "[EN] Next play mode | [TR] Sonrakini oynat modu butonu"
+  },
+  "bClass Audio: Repeat Mode": {
+    "prefix": "sound-player-repeat-btn",
+    "body": ["sound-player-repeat-btn"],
+    "description": "[EN] Repeat mode btn | [TR] Tekrarla modu butonu"
+  },
+  "bClass Audio: Repeat Icon": {
+    "prefix": "sound-player-repeat-icon",
+    "body": ["sound-player-repeat-icon"],
+    "description": "[EN] Repeat mode icon | [TR] Tekrarla simgesi"
+  },
+
+  "bClass Video: Container": {
+    "prefix": "video-player-container",
+    "body": ["video-player-container"],
+    "description": "[EN] Main video container | [TR] Video oynatıcı ana kapsayıcı"
+  },
+  "bClass HTML: Video Container": {
+    "prefix": "video-player-container div",
+    "body": ["<div class=\"video-player-container\">", "\t${1:}", "</div>"],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+
+  "bClass Video: Broken Error": {
+    "prefix": "video-player-broken",
+    "body": ["video-player-broken"],
+    "description": "[EN] Error message on load fail | [TR] Yükleme hatası mesajı"
+  },
+  "bClass Video: Screen": {
+    "prefix": "video-player-screen",
+    "body": ["video-player-screen"],
+    "description": "[EN] Player visual screen | [TR] Oynatıcı görsel ekranı"
+  },
+  "bClass Video: Hover Load Button": {
+    "prefix": "video-player-hover-load",
+    "body": ["video-player-hover-load"],
+    "description": "[EN] Playback start on hover | [TR] Üzerine gelince başlatma butonu"
+  },
+  "bClass Video: Loading Anim": {
+    "prefix": "video-player-loading",
+    "body": ["video-player-loading"],
+    "description": "[EN] Loading animation | [TR] Yükleme animasyonu"
+  },
+  "bClass Video: Album Name": {
+    "prefix": "video-player-album",
+    "body": ["video-player-album"],
+    "description": "[EN] Album name display | [TR] Albüm adı görünümü"
+  },
+  "bClass Video: Track Title": {
+    "prefix": "video-player-title",
+    "body": ["video-player-title"],
+    "description": "[EN] Track title | [TR] Parça başlığı"
+  },
+  "bClass Video: Artist Name": {
+    "prefix": "video-player-artist-name",
+    "body": ["video-player-artist-name"],
+    "description": "[EN] Artist name | [TR] Sanatçı adı"
+  },
+  "bClass Video: Current Time": {
+    "prefix": "video-player-current-time",
+    "body": ["video-player-current-time"],
+    "description": "[EN] Current time | [TR] Geçen süre"
+  },
+  "bClass Video: Total Time": {
+    "prefix": "video-player-total-time",
+    "body": ["video-player-total-time"],
+    "description": "[EN] Total duration | [TR] Toplam süre"
+  },
+  "bClass Video: Progress Bar Timmer": {
+    "prefix": "video-player-timmer",
+    "body": ["video-player-timmer"],
+    "description": "[EN] Progress bar | [TR] İlerleme çubuğu"
+  },
+  "bClass HTML: Video Progress Bar": {
+    "prefix": "video-player-timmer input",
+    "body": [
+      "<input type=\"range\" class=\"video-player-timmer\" min=\"0\" max=\"100\" value=\"0\" />"
+    ],
+    "description": "[EN] Full HTML block | [TR] Tam HTML yapısı"
+  },
+  "bClass Video: Timmer Hover Info": {
+    "prefix": "video-player-timmer-hover",
+    "body": ["video-player-timmer-hover"],
+    "description": "[EN] Time info on mouse hover | [TR] Üzerine gelince süre bilgisi"
+  },
+
+  "bClass Video: Center Controls": {
+    "prefix": "video-player-center-controls",
+    "body": ["video-player-center-controls"],
+    "description": "[EN] Center controls container | [TR] Orta kontroller kapsayıcısı"
+  },
+  "bClass Video: Back Button": {
+    "prefix": "video-player-back-btn",
+    "body": ["video-player-back-btn"],
+    "description": "[EN] Backwards button | [TR] Geri sarma butonu"
+  },
+  "bClass Video: Forward Button": {
+    "prefix": "video-player-forward-btn",
+    "body": ["video-player-forward-btn"],
+    "description": "[EN] Forwards button | [TR] İleri sarma butonu"
+  },
+  "bClass Video: Play Pause Button": {
+    "prefix": "video-player-play-pause-btn",
+    "body": ["video-player-play-pause-btn"],
+    "description": "[EN] Play/Pause button | [TR] Oynat/Duraklat butonu"
+  },
+  "bClass Video: General Controls": {
+    "prefix": "video-player-controls",
+    "body": ["video-player-controls"],
+    "description": "[EN] General control panel | [TR] Genel kontrol paneli"
+  },
+  "bClass Video: Volume Control": {
+    "prefix": "video-player-volume",
+    "body": ["video-player-volume"],
+    "description": "[EN] Volume range input | [TR] Ses seviyesi çubuğu"
+  },
+  "bClass Video: Volume Icon": {
+    "prefix": "video-player-volume-icon",
+    "body": ["video-player-volume-icon"],
+    "description": "[EN] Volume icon | [TR] Ses simgesi"
+  },
+  "bClass Video: Shuffle Button": {
+    "prefix": "video-player-shuffle-btn",
+    "body": ["video-player-shuffle-btn"],
+    "description": "[EN] Shuffle mode btn | [TR] Karışık çalma butonu"
+  },
+  "bClass Video: Shuffle Icon": {
+    "prefix": "video-player-shuffle-icon",
+    "body": ["video-player-shuffle-icon"],
+    "description": "[EN] Shuffle mode icon | [TR] Karışık çalma simgesi"
+  },
+  "bClass Video: Previous Track": {
+    "prefix": "video-player-prev-btn",
+    "body": ["video-player-prev-btn"],
+    "description": "[EN] Previous track btn | [TR] Önceki parça butonu"
+  },
+  "bClass Video: Next Track": {
+    "prefix": "video-player-next-btn",
+    "body": ["video-player-next-btn"],
+    "description": "[EN] Next track btn | [TR] Sonraki parça butonu"
+  },
+  "bClass Video: Autoplay Button": {
+    "prefix": "video-player-autoplay-btn",
+    "body": ["video-player-autoplay-btn"],
+    "description": "[EN] Autoplay btn | [TR] Otomatik oynat butonu"
+  },
+  "bClass Video: Speed Buttons": {
+    "prefix": "video-player-speed-btn",
+    "body": ["video-player-speed-btn"],
+    "description": "[EN] Speed settings link | [TR] Hız ayarı bağlantısı"
+  },
+  "bClass Video: Speed Text": {
+    "prefix": "video-player-speed-text",
+    "body": ["video-player-speed-text"],
+    "description": "[EN] Speed value text | [TR] Hız değeri metni"
+  },
+  "bClass Video: Subtitle Select Button": {
+    "prefix": "video-player-subtitle-btn",
+    "body": ["video-player-subtitle-btn"],
+    "description": "[EN] Subtitle selector | [TR] Altyazı seçici butonu"
+  },
+  "bClass Video: Subtitle Selected Text": {
+    "prefix": "video-player-subtitle-text",
+    "body": ["video-player-subtitle-text"],
+    "description": "[EN] Selected subtitle info | [TR] Seçili altyazı bilgisi"
+  },
+  "bClass Video: Quality Options": {
+    "prefix": "video-player-quality-btn",
+    "body": ["video-player-quality-btn"],
+    "description": "[EN] Quality options btn | [TR] Kalite seçenek butonu"
+  },
+  "bClass Video: Quality Text": {
+    "prefix": "video-player-quality-text",
+    "body": ["video-player-quality-text"],
+    "description": "[EN] Selected quality info | [TR] Seçili kalite metni"
+  },
+  "bClass Video: Nextplay Mode": {
+    "prefix": "video-player-nextplay-btn",
+    "body": ["video-player-nextplay-btn"],
+    "description": "[EN] Next play mode | [TR] Sonrakini oynat modu butonu"
+  },
+  "bClass Video: Description Mode Button": {
+    "prefix": "video-player-descriptions-btn",
+    "body": ["video-player-descriptions-btn"],
+    "description": "[EN] Description mode | [TR] Açıklamalar butonu"
+  },
+  "bClass Video: Repeat Mode Button": {
+    "prefix": "video-player-repeat-btn",
+    "body": ["video-player-repeat-btn"],
+    "description": "[EN] Repeat mode btn | [TR] Tekrarla modu butonu"
+  },
+  "bClass Video: Repeat Icon": {
+    "prefix": "video-player-repeat-icon",
+    "body": ["video-player-repeat-icon"],
+    "description": "[EN] Repeat mode icon | [TR] Tekrarla simgesi"
+  },
+  "bClass Video: Fullscreen Button": {
+    "prefix": "video-player-fullscreen-btn",
+    "body": ["video-player-fullscreen-btn"],
+    "description": "[EN] Fullscreen btn | [TR] Tam ekran butonu"
+  },
+  "bClass Video: Cinema Mode Button": {
+    "prefix": "video-player-cinema-btn",
+    "body": ["video-player-cinema-btn"],
+    "description": "[EN] Cinema mode btn | [TR] Sinema modu butonu"
+  },
+  "bClass Video: PiP Mode Button": {
+    "prefix": "video-player-pip-btn",
+    "body": ["video-player-pip-btn"],
+    "description": "[EN] Picture-in-picture btn | [TR] Resim içinde resim butonu"
+  }
+}

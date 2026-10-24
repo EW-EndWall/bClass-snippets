@@ -1,0 +1,642 @@
+{
+  "bClass Animations: Installation Link & Script": {
+    "prefix": [
+      "bClass-animations",
+      "link:bClass-animations"
+    ],
+    "body": [
+      "<link rel=\"stylesheet\" href=\"${1:./bClass-animations.css}\" />",
+      "<script src=\"${2:./bClass-animations.js}\"></script>"
+    ],
+    "description": "Add bClass Animations CSS and JavaScript files to your project"
+  },
+  "bClass Animation: Animate Up": {
+    "prefix": "animate-up",
+    "body": [
+      "animate-up"
+    ],
+    "description": "Animation that moves elements upward"
+  },
+  "bClass Animation: Animate Left": {
+    "prefix": "animate-left",
+    "body": [
+      "animate-left"
+    ],
+    "description": "Animation that moves elements to the left"
+  },
+  "bClass Animation: Animate Down": {
+    "prefix": "animate-down",
+    "body": [
+      "animate-down"
+    ],
+    "description": "Animation that moves elements downward"
+  },
+  "bClass Animation: Animate Right": {
+    "prefix": "animate-right",
+    "body": [
+      "animate-right"
+    ],
+    "description": "Animation that moves elements to the right"
+  },
+  "bClass Animation: Animate Slide Right": {
+    "prefix": "animate-slide-right",
+    "body": [
+      "animate-slide-right"
+    ],
+    "description": "Animation that slides elements from right to left"
+  },
+  "bClass Animation: Animate Slide Left": {
+    "prefix": "animate-slide-left",
+    "body": [
+      "animate-slide-left"
+    ],
+    "description": "Animation that slides elements from left to right"
+  },
+  "bClass Animation: Animate Slide Up": {
+    "prefix": "animate-slide-up",
+    "body": [
+      "animate-slide-up"
+    ],
+    "description": "Animation that slides elements from bottom to top"
+  },
+  "bClass Animation: Animate Slide Down": {
+    "prefix": "animate-slide-down",
+    "body": [
+      "animate-slide-down"
+    ],
+    "description": "Animation that slides elements from top to bottom"
+  },
+  "bClass Animation: Animate Opacity Sharp Full": {
+    "prefix": "animate-opacity-sharp-full",
+    "body": [
+      "animate-opacity-sharp-full"
+    ],
+    "description": "Sharp opacity animation (from 0 to 1)"
+  },
+  "bClass Animation: Animate Opacity Sharp Half": {
+    "prefix": "animate-opacity-sharp-half",
+    "body": [
+      "animate-opacity-sharp-half"
+    ],
+    "description": "Sharp opacity animation (from 0.5 to 1)"
+  },
+  "bClass Animation: Animate Opacity Soft Full": {
+    "prefix": "animate-opacity-soft-full",
+    "body": [
+      "animate-opacity-soft-full"
+    ],
+    "description": "Soft opacity animation (0 → 1 → 0)"
+  },
+  "bClass Animation: Animate Opacity Soft Half": {
+    "prefix": "animate-opacity-soft-half",
+    "body": [
+      "animate-opacity-soft-half"
+    ],
+    "description": "Soft opacity animation (0.5 → 1 → 0.5)"
+  },
+  "bClass Animation: Animate Rotate Left": {
+    "prefix": "animate-rotate-l",
+    "body": [
+      "animate-rotate-l"
+    ],
+    "description": "Rotates to the left"
+  },
+  "bClass Animation: Animate Rotate Right": {
+    "prefix": "animate-rotate-r",
+    "body": [
+      "animate-rotate-r"
+    ],
+    "description": "Rotates to the right"
+  },
+  "bClass Animation: Animate Hover Up": {
+    "prefix": "animate-hover-up",
+    "body": [
+      "animate-hover-up"
+    ],
+    "description": "Animation that moves elements upward on hover"
+  },
+  "bClass Animation: Animate Hover Left": {
+    "prefix": "animate-hover-left",
+    "body": [
+      "animate-hover-left"
+    ],
+    "description": "Animation that moves elements to the left on hover"
+  },
+  "bClass Animation: Animate Hover Down": {
+    "prefix": "animate-hover-down",
+    "body": [
+      "animate-hover-down"
+    ],
+    "description": "Animation that moves elements downward on hover"
+  },
+  "bClass Animation: Animate Hover Right": {
+    "prefix": "animate-hover-right",
+    "body": [
+      "animate-hover-right"
+    ],
+    "description": "Animation that moves elements to the right on hover"
+  },
+  "bClass Animation: Animate Items Container": {
+    "prefix": "animate-items-m-1",
+    "body": [
+      "animate-items-m-1"
+    ],
+    "description": "Style for hover items container"
+  },
+  "bClass Animation: Animate Items Hovered": {
+    "prefix": "animate-items-hovered-m-1",
+    "body": [
+      "animate-items-hovered-m-1"
+    ],
+    "description": "Style for hovered items"
+  },
+  "bClass Animation: Animate Items Not Hovered": {
+    "prefix": "animate-items-not-hovered-m-1",
+    "body": [
+      "animate-items-not-hovered-m-1"
+    ],
+    "description": "Style for non-hovered items"
+  },
+  "bClass Animation: Animate Items Example Block": {
+    "prefix": [
+      "animate-items-example",
+      "animate-items-block"
+    ],
+    "body": [
+      "<div class=\"animate-items-m-1\">",
+      "\t<div class=\"animate-items-hovered-m-1\">",
+      "\t\t${1:Hovered State Content}",
+      "\t</div>",
+      "\t<div class=\"animate-items-not-hovered-m-1\">",
+      "\t\t${2:Default State Content}",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Example markup for hovered and non-hovered item structure"
+  },
+  "bClass Animation: Infinite Loop Hover Stop": {
+    "prefix": [
+      "animate-right infinite hover:animate-none",
+      "hover:animate-none"
+    ],
+    "body": [
+      "animate-right infinite hover:animate-none"
+    ],
+    "description": "Moves elements to the right in an infinite loop and stops the animation upon hovering"
+  },
+  "bClass Transition: None": {
+    "prefix": "transition-none",
+    "body": [
+      "transition-none"
+    ],
+    "description": "No transition"
+  },
+  "bClass Transition: All": {
+    "prefix": "transition-all",
+    "body": [
+      "transition-all"
+    ],
+    "description": "All transitions"
+  },
+  "bClass Transition: Color": {
+    "prefix": "transition-color",
+    "body": [
+      "transition-color"
+    ],
+    "description": "Color transitions"
+  },
+  "bClass Transition: Opacity": {
+    "prefix": "transition-opacity",
+    "body": [
+      "transition-opacity"
+    ],
+    "description": "Opacity transitions"
+  },
+  "bClass Transition: Shadow": {
+    "prefix": "transition-shadow",
+    "body": [
+      "transition-shadow"
+    ],
+    "description": "Shadow transitions"
+  },
+  "bClass Transition: Transform": {
+    "prefix": "transition-transform",
+    "body": [
+      "transition-transform"
+    ],
+    "description": "Transform transitions"
+  },
+  "bClass Transition: Margin": {
+    "prefix": "transition-margin",
+    "body": [
+      "transition-margin"
+    ],
+    "description": "Margin transitions"
+  },
+  "bClass Timing: Linear": {
+    "prefix": "linear",
+    "body": [
+      "linear"
+    ],
+    "description": "Linear timing function"
+  },
+  "bClass Timing: Ease": {
+    "prefix": "ease",
+    "body": [
+      "ease"
+    ],
+    "description": "Ease timing function"
+  },
+  "bClass Timing: Ease-In": {
+    "prefix": "ease-in",
+    "body": [
+      "ease-in"
+    ],
+    "description": "Ease-in timing function"
+  },
+  "bClass Timing: Ease-Out": {
+    "prefix": "ease-out",
+    "body": [
+      "ease-out"
+    ],
+    "description": "Ease-out timing function"
+  },
+  "bClass Timing: Ease-In-Out": {
+    "prefix": "ease-in-out",
+    "body": [
+      "ease-in-out"
+    ],
+    "description": "Ease-in-out timing function"
+  },
+  "bClass Timing: Steps-6-End": {
+    "prefix": "steps-6-end",
+    "body": [
+      "steps-6-end"
+    ],
+    "description": "Timing function with 6 steps"
+  },
+  "bClass Timing: Cubic-Bezier": {
+    "prefix": "cubic-bezier",
+    "body": [
+      "cubic-bezier"
+    ],
+    "description": "Cubic bezier timing function"
+  },
+  "bClass Duration: Select Animation Duration": {
+    "prefix": "animate-duration",
+    "body": [
+      "animate-duration-${1|0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,2,3,4,5,6,7,8,9,10,15,20,25,30,35,40,45,50,55,60|}"
+    ],
+    "description": "Animation duration helper with dropdown selection"
+  },
+  "bClass Duration: 0.1s": {
+    "prefix": "animate-duration-0.1",
+    "body": [
+      "animate-duration-0.1"
+    ],
+    "description": "Animation duration 0.1s"
+  },
+  "bClass Duration: 0.2s": {
+    "prefix": "animate-duration-0.2",
+    "body": [
+      "animate-duration-0.2"
+    ],
+    "description": "Animation duration 0.2s"
+  },
+  "bClass Duration: 0.3s": {
+    "prefix": "animate-duration-0.3",
+    "body": [
+      "animate-duration-0.3"
+    ],
+    "description": "Animation duration 0.3s"
+  },
+  "bClass Duration: 0.4s": {
+    "prefix": "animate-duration-0.4",
+    "body": [
+      "animate-duration-0.4"
+    ],
+    "description": "Animation duration 0.4s"
+  },
+  "bClass Duration: 0.5s": {
+    "prefix": "animate-duration-0.5",
+    "body": [
+      "animate-duration-0.5"
+    ],
+    "description": "Animation duration 0.5s"
+  },
+  "bClass Duration: 0.6s": {
+    "prefix": "animate-duration-0.6",
+    "body": [
+      "animate-duration-0.6"
+    ],
+    "description": "Animation duration 0.6s"
+  },
+  "bClass Duration: 0.7s": {
+    "prefix": "animate-duration-0.7",
+    "body": [
+      "animate-duration-0.7"
+    ],
+    "description": "Animation duration 0.7s"
+  },
+  "bClass Duration: 0.8s": {
+    "prefix": "animate-duration-0.8",
+    "body": [
+      "animate-duration-0.8"
+    ],
+    "description": "Animation duration 0.8s"
+  },
+  "bClass Duration: 0.9s": {
+    "prefix": "animate-duration-0.9",
+    "body": [
+      "animate-duration-0.9"
+    ],
+    "description": "Animation duration 0.9s"
+  },
+  "bClass Duration: 1s": {
+    "prefix": "animate-duration-1",
+    "body": [
+      "animate-duration-1"
+    ],
+    "description": "Animation duration 1s"
+  },
+  "bClass Duration: 2s": {
+    "prefix": "animate-duration-2",
+    "body": [
+      "animate-duration-2"
+    ],
+    "description": "Animation duration 2s"
+  },
+  "bClass Duration: 3s": {
+    "prefix": "animate-duration-3",
+    "body": [
+      "animate-duration-3"
+    ],
+    "description": "Animation duration 3s"
+  },
+  "bClass Duration: 4s": {
+    "prefix": "animate-duration-4",
+    "body": [
+      "animate-duration-4"
+    ],
+    "description": "Animation duration 4s"
+  },
+  "bClass Duration: 5s": {
+    "prefix": "animate-duration-5",
+    "body": [
+      "animate-duration-5"
+    ],
+    "description": "Animation duration 5s"
+  },
+  "bClass Duration: 6s": {
+    "prefix": "animate-duration-6",
+    "body": [
+      "animate-duration-6"
+    ],
+    "description": "Animation duration 6s"
+  },
+  "bClass Duration: 7s": {
+    "prefix": "animate-duration-7",
+    "body": [
+      "animate-duration-7"
+    ],
+    "description": "Animation duration 7s"
+  },
+  "bClass Duration: 8s": {
+    "prefix": "animate-duration-8",
+    "body": [
+      "animate-duration-8"
+    ],
+    "description": "Animation duration 8s"
+  },
+  "bClass Duration: 9s": {
+    "prefix": "animate-duration-9",
+    "body": [
+      "animate-duration-9"
+    ],
+    "description": "Animation duration 9s"
+  },
+  "bClass Duration: 10s": {
+    "prefix": "animate-duration-10",
+    "body": [
+      "animate-duration-10"
+    ],
+    "description": "Animation duration 10s"
+  },
+  "bClass Duration: 15s": {
+    "prefix": "animate-duration-15",
+    "body": [
+      "animate-duration-15"
+    ],
+    "description": "Animation duration 15s"
+  },
+  "bClass Duration: 20s": {
+    "prefix": "animate-duration-20",
+    "body": [
+      "animate-duration-20"
+    ],
+    "description": "Animation duration 20s"
+  },
+  "bClass Duration: 25s": {
+    "prefix": "animate-duration-25",
+    "body": [
+      "animate-duration-25"
+    ],
+    "description": "Animation duration 25s"
+  },
+  "bClass Duration: 30s": {
+    "prefix": "animate-duration-30",
+    "body": [
+      "animate-duration-30"
+    ],
+    "description": "Animation duration 30s"
+  },
+  "bClass Duration: 35s": {
+    "prefix": "animate-duration-35",
+    "body": [
+      "animate-duration-35"
+    ],
+    "description": "Animation duration 35s"
+  },
+  "bClass Duration: 40s": {
+    "prefix": "animate-duration-40",
+    "body": [
+      "animate-duration-40"
+    ],
+    "description": "Animation duration 40s"
+  },
+  "bClass Duration: 45s": {
+    "prefix": "animate-duration-45",
+    "body": [
+      "animate-duration-45"
+    ],
+    "description": "Animation duration 45s"
+  },
+  "bClass Duration: 50s": {
+    "prefix": "animate-duration-50",
+    "body": [
+      "animate-duration-50"
+    ],
+    "description": "Animation duration 50s"
+  },
+  "bClass Duration: 55s": {
+    "prefix": "animate-duration-55",
+    "body": [
+      "animate-duration-55"
+    ],
+    "description": "Animation duration 55s"
+  },
+  "bClass Duration: 60s": {
+    "prefix": "animate-duration-60",
+    "body": [
+      "animate-duration-60"
+    ],
+    "description": "Animation duration 60s"
+  },
+  "bClass Delay: Select Animation Delay": {
+    "prefix": "animate-delay",
+    "body": [
+      "animate-delay-${1|1,2,3,4,5|}"
+    ],
+    "description": "Animation delay helper with dropdown selection"
+  },
+  "bClass Delay: 1s": {
+    "prefix": "animate-delay-1",
+    "body": [
+      "animate-delay-1"
+    ],
+    "description": "Animation delay 1s"
+  },
+  "bClass Delay: 2s": {
+    "prefix": "animate-delay-2",
+    "body": [
+      "animate-delay-2"
+    ],
+    "description": "Animation delay 2s"
+  },
+  "bClass Delay: 3s": {
+    "prefix": "animate-delay-3",
+    "body": [
+      "animate-delay-3"
+    ],
+    "description": "Animation delay 3s"
+  },
+  "bClass Delay: 4s": {
+    "prefix": "animate-delay-4",
+    "body": [
+      "animate-delay-4"
+    ],
+    "description": "Animation delay 4s"
+  },
+  "bClass Delay: 5s": {
+    "prefix": "animate-delay-5",
+    "body": [
+      "animate-delay-5"
+    ],
+    "description": "Animation delay 5s"
+  },
+  "bClass Transition Duration: Select": {
+    "prefix": "transition-duration",
+    "body": [
+      "transition-duration-${1|0.5,1,1.5,2,3,4,5|}"
+    ],
+    "description": "Transition duration helper with dropdown selection"
+  },
+  "bClass Transition Duration: 0.5s": {
+    "prefix": "transition-duration-0.5",
+    "body": [
+      "transition-duration-0.5"
+    ],
+    "description": "Transition duration 0.5s"
+  },
+  "bClass Transition Duration: 1s": {
+    "prefix": "transition-duration-1",
+    "body": [
+      "transition-duration-1"
+    ],
+    "description": "Transition duration 1s"
+  },
+  "bClass Transition Duration: 1.5s": {
+    "prefix": "transition-duration-1.5",
+    "body": [
+      "transition-duration-1.5"
+    ],
+    "description": "Transition duration 1.5s"
+  },
+  "bClass Transition Duration: 2s": {
+    "prefix": "transition-duration-2",
+    "body": [
+      "transition-duration-2"
+    ],
+    "description": "Transition duration 2s"
+  },
+  "bClass Transition Duration: 3s": {
+    "prefix": "transition-duration-3",
+    "body": [
+      "transition-duration-3"
+    ],
+    "description": "Transition duration 3s"
+  },
+  "bClass Transition Duration: 4s": {
+    "prefix": "transition-duration-4",
+    "body": [
+      "transition-duration-4"
+    ],
+    "description": "Transition duration 4s"
+  },
+  "bClass Transition Duration: 5s": {
+    "prefix": "transition-duration-5",
+    "body": [
+      "transition-duration-5"
+    ],
+    "description": "Transition duration 5s"
+  },
+  "bClass Transition Delay: Select": {
+    "prefix": "transition-delay",
+    "body": [
+      "transition-delay-${1|0,10,25,50,75,100|}"
+    ],
+    "description": "Transition delay helper with dropdown selection"
+  },
+  "bClass Transition Delay: 0": {
+    "prefix": "transition-delay-0",
+    "body": [
+      "transition-delay-0"
+    ],
+    "description": "Transition delay 0ms"
+  },
+  "bClass Transition Delay: 10": {
+    "prefix": "transition-delay-10",
+    "body": [
+      "transition-delay-10"
+    ],
+    "description": "Transition delay 10ms"
+  },
+  "bClass Transition Delay: 25": {
+    "prefix": "transition-delay-25",
+    "body": [
+      "transition-delay-25"
+    ],
+    "description": "Transition delay 25ms"
+  },
+  "bClass Transition Delay: 50": {
+    "prefix": "transition-delay-50",
+    "body": [
+      "transition-delay-50"
+    ],
+    "description": "Transition delay 50ms"
+  },
+  "bClass Transition Delay: 75": {
+    "prefix": "transition-delay-75",
+    "body": [
+      "transition-delay-75"
+    ],
+    "description": "Transition delay 75ms"
+  },
+  "bClass Transition Delay: 100": {
+    "prefix": "transition-delay-100",
+    "body": [
+      "transition-delay-100"
+    ],
+    "description": "Transition delay 100ms"
+  }
+}

@@ -1,0 +1,1593 @@
+{
+  "Components Include": {
+    "prefix": "bClass-components",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"${1:bClass-components.css}\" />"
+    ],
+    "description": "Components: Link stylesheet tag"
+  },
+  "Element: Page Loader": {
+    "prefix": [
+      "page-loader-html",
+      "page-loader-element"
+    ],
+    "body": [
+      "<div id=\"page-loader\" class=\"page-loader-m-1\">",
+      "\t<img src=\"${1:./loader/1.png}\" alt=\"page-loader\" />",
+      "\t<img src=\"${2:./loader/2.png}\" alt=\"page-loader\" />",
+      "</div>"
+    ],
+    "description": "Component: Full page loader markup"
+  },
+  "Element: Loader M1": {
+    "prefix": [
+      "loader-m-1-html",
+      "loader-m-1-element"
+    ],
+    "body": [
+      "<div class=\"loader-m-1 ${1:w-rem-5 h-rem-5}\"></div>"
+    ],
+    "description": "Component: Rotating and animated loader"
+  },
+  "Element: Loader M2": {
+    "prefix": [
+      "loader-m-2-html",
+      "loader-m-2-element"
+    ],
+    "body": [
+      "<div class=\"loader-m-2-${1|1,2,3,4,5,6,7,8,9,10|} ${2:w-rem-5 h-rem-5}\"></div>"
+    ],
+    "description": "Component: 4-dot loader element"
+  },
+  "Element: Loader M3": {
+    "prefix": [
+      "loader-m-3-html",
+      "loader-m-3-element"
+    ],
+    "body": [
+      "<div class=\"loader-m-3-${1|1,2,3,4|} ${2:w-rem-5 h-rem-5}\"></div>"
+    ],
+    "description": "Component: 2-dot diagonal loader element"
+  },
+  "Element: Loader M4 (Framed SVG)": {
+    "prefix": [
+      "loader-m-4-html",
+      "loader-m-4-element"
+    ],
+    "body": [
+      "<div class=\"loader-m-4-${1|1,2,3,4,5,6,7|} ${2:w-rem-5 h-rem-5}\"></div>"
+    ],
+    "description": "Component: Framed SVG loader element"
+  },
+  "Element: Loader M5 (Frameless SVG)": {
+    "prefix": [
+      "loader-m-5-html",
+      "loader-m-5-element"
+    ],
+    "body": [
+      "<div class=\"loader-m-5-${1|1,2,3,4,5,6,7|} ${2:w-rem-5 h-rem-5}\"></div>"
+    ],
+    "description": "Component: Frameless SVG loader element"
+  },
+  "Element: Cookies Confirmation": {
+    "prefix": [
+      "cookies-confirmation-html",
+      "cookies-confirmation-element"
+    ],
+    "body": [
+      "<div id=\"cookies-confirmation\">",
+      "\t<p>${1:We use cookies to improve your user experience.}</p>",
+      "\t<button id=\"cookies-confirmation-close\">${2:Accept}</button>",
+      "</div>"
+    ],
+    "description": "Component: Cookies confirmation box and close button"
+  },
+  "Element: Button": {
+    "prefix": [
+      "btn-html",
+      "btn-element"
+    ],
+    "body": [
+      "<button class=\"btn${1: btn-primary}\">${2:Click Me}</button>"
+    ],
+    "description": "Component: Button markup"
+  },
+  "Element: Tooltip Attribute": {
+    "prefix": [
+      "tooltip",
+      "data-title"
+    ],
+    "body": [
+      "data-title${1|-top,-bottom,-left,-right|}=\"${2:Tooltip text}\""
+    ],
+    "description": "Component: Tooltip data attribute"
+  },
+  "Element: Checkbox": {
+    "prefix": [
+      "checkbox-html",
+      "input-checkbox-element"
+    ],
+    "body": [
+      "<input type=\"checkbox\" class=\"input-checkbox-m-${1|1,2,3,4,5,6|}\" id=\"${2:checkbox1}\" />"
+    ],
+    "description": "Component: Styled checkbox input"
+  },
+  "Element: Radio": {
+    "prefix": [
+      "radio-html",
+      "input-radio-element"
+    ],
+    "body": [
+      "<input type=\"radio\" name=\"${1:radio-group}\" class=\"input-radio-m-${2|1,2,3,4|}\" id=\"${3:radio1}\" />"
+    ],
+    "description": "Component: Styled radio button"
+  },
+  "Element: Text Input": {
+    "prefix": [
+      "input-text-html",
+      "input-text-element"
+    ],
+    "body": [
+      "<input type=\"text\" class=\"input-text-m-1\" placeholder=\"${1:Enter text...}\" />"
+    ],
+    "description": "Component: Text input field"
+  },
+  "Element: Password Input": {
+    "prefix": [
+      "input-password-html",
+      "input-password-element"
+    ],
+    "body": [
+      "<input type=\"password\" class=\"input-password-m-1\" placeholder=\"${1:Enter password...}\" />"
+    ],
+    "description": "Component: Password input field"
+  },
+  "Element: Number Input": {
+    "prefix": [
+      "input-number-html",
+      "input-number-element"
+    ],
+    "body": [
+      "<input type=\"number\" class=\"input-number-m-${1|1,2,3|}\" value=\"${2:0}\" />"
+    ],
+    "description": "Component: Number input field"
+  },
+  "Element: Select Dropdown": {
+    "prefix": [
+      "input-select-html",
+      "input-select-element"
+    ],
+    "body": [
+      "<select class=\"input-sellect-m-1\">",
+      "\t<option value=\"${1:1}\">${2:Option 1}</option>",
+      "\t<option value=\"${3:2}\">${4:Option 2}</option>",
+      "</select>"
+    ],
+    "description": "Component: Select dropdown"
+  },
+  "Element: Range Slider": {
+    "prefix": [
+      "input-range-html",
+      "input-range-element"
+    ],
+    "body": [
+      "<input type=\"range\" class=\"input-range-m-1\" min=\"${1:0}\" max=\"${2:100}\" value=\"${3:50}\" />"
+    ],
+    "description": "Component: Range slider input"
+  },
+  "Element: File Input": {
+    "prefix": [
+      "input-file-html",
+      "input-file-element"
+    ],
+    "body": [
+      "<input type=\"file\" class=\"input-file-m-1\" />",
+      "<div class=\"input-file-m-1-preview\"></div>"
+    ],
+    "description": "Component: File input with preview"
+  },
+  "Element: Fieldset": {
+    "prefix": [
+      "fieldset-html",
+      "fieldset-element"
+    ],
+    "body": [
+      "<fieldset class=\"fieldset-m-${1|1,2|}\">",
+      "\t<legend>${2:Legend Title}</legend>",
+      "\t$0",
+      "</fieldset>"
+    ],
+    "description": "Component: Fieldset model"
+  },
+  "Element: Details": {
+    "prefix": [
+      "details-html",
+      "details-element"
+    ],
+    "body": [
+      "<details class=\"details-m-1\">",
+      "\t<summary>${1:Summary Title}</summary>",
+      "\t<p>${2:Detailed content here...}</p>",
+      "</details>"
+    ],
+    "description": "Component: Collapsible details component"
+  },
+  "Element: Chat Bubble": {
+    "prefix": [
+      "chat-bubble-html",
+      "chat-bubble-element"
+    ],
+    "body": [
+      "<div class=\"chat-bubble-${1|l,r|}-m-1\">",
+      "\t<p>${2:Message text}</p>",
+      "</div>"
+    ],
+    "description": "Component: Chat bubble (left or right)"
+  },
+  "Element: OR Separator": {
+    "prefix": [
+      "or-html",
+      "or-m-1-element"
+    ],
+    "body": [
+      "<div class=\"or-m-1\">${1:OR}</div>"
+    ],
+    "description": "Component: OR separator component"
+  },
+  "Element: HR Line": {
+    "prefix": [
+      "hr-html",
+      "hr-m-1-element"
+    ],
+    "body": [
+      "<hr class=\"hr-m-1\" />"
+    ],
+    "description": "Component: Horizontal line with gradient background"
+  },
+  "Element: Notification Badge": {
+    "prefix": [
+      "notification-badge-html",
+      "notification-badge-element"
+    ],
+    "body": [
+      "<span class=\"notification-badge\">${1:1}</span>"
+    ],
+    "description": "Component: Notification badge"
+  },
+  "Element: Dropdown M1": {
+    "prefix": [
+      "dropdown-m-1-html",
+      "dropdown-m-1-element"
+    ],
+    "body": [
+      "<div class=\"dropdown-m-1\">",
+      "\t<button class=\"dropdown-m-1-btn\">${1:Menu}</button>",
+      "\t<div class=\"dropdown-m-1-content\">",
+      "\t\t$0",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Component: Dropdown model 1"
+  },
+  "Element: Dropdown M3 Hideable": {
+    "prefix": [
+      "dropdown-m-3-html",
+      "dropdown-m-3-element"
+    ],
+    "body": [
+      "<div class=\"dropdown-m-3-hideable\">",
+      "\t<button class=\"dropdown-m-3-btn\">",
+      "\t\t<span class=\"dropdown-m-3-title\">${1:Dropdown Title}</span>",
+      "\t</button>",
+      "\t<div class=\"dropdown-m-3\">",
+      "\t\t$0",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Component: Dropdown model 3 hideable"
+  },
+  "Element: Roadmap M1": {
+    "prefix": [
+      "roadmap-m-1-html",
+      "roadmap-m-1-element"
+    ],
+    "body": [
+      "<div class=\"roadmap-m-1\">",
+      "\t<div class=\"item\">${1:Step 1}</div>",
+      "\t<div class=\"item\">${2:Step 2}</div>",
+      "</div>"
+    ],
+    "description": "Component: Roadmap model 1"
+  },
+  "Element: Roadmap M2": {
+    "prefix": [
+      "roadmap-m-2-html",
+      "roadmap-m-2-element"
+    ],
+    "body": [
+      "<div class=\"roadmap-m-2\">",
+      "\t<div class=\"item\">",
+      "\t\t<span class=\"roadmap-m-2-icon\">${1:1}</span>",
+      "\t\t<div>${2:Step details}</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Component: Roadmap model 2 with icons"
+  },
+  "Element: Content List Columns": {
+    "prefix": [
+      "content-list-html",
+      "content-list-element"
+    ],
+    "body": [
+      "<div class=\"content-list-col-${1|1,2,3,4,5|}\">",
+      "\t<div>${2:Item 1}</div>",
+      "\t<div>${3:Item 2}</div>",
+      "</div>"
+    ],
+    "description": "Component: Content list multi-column grid"
+  },
+  "Element: Item Count Group": {
+    "prefix": [
+      "item-count-html",
+      "item-count-group"
+    ],
+    "body": [
+      "<div class=\"item-count\">",
+      "\t<div class=\"item\">${1:Item 1}</div>",
+      "\t<div class=\"item\">${2:Item 2}</div>",
+      "\t<span class=\"item-count-result\"></span>",
+      "</div>"
+    ],
+    "description": "Component: Item counter element"
+  },
+  "ID: #page-loader": {
+    "prefix": "page-loader",
+    "body": [
+      "page-loader"
+    ],
+    "description": "ID: Main container for page loader removal"
+  },
+  "Class: .page-loader-m-1": {
+    "prefix": "page-loader-m-1",
+    "body": [
+      "page-loader-m-1"
+    ],
+    "description": "Component: Animated page loader model 1"
+  },
+  "Class: .loader-m-1": {
+    "prefix": "loader-m-1",
+    "body": [
+      "loader-m-1"
+    ],
+    "description": "Component: Rotating and animated loader"
+  },
+  "Class: .loader-m-2-1": {
+    "prefix": "loader-m-2-1",
+    "body": [
+      "loader-m-2-1"
+    ],
+    "description": "4-dot loader scaling sequentially"
+  },
+  "Class: .loader-m-2-2": {
+    "prefix": "loader-m-2-2",
+    "body": [
+      "loader-m-2-2"
+    ],
+    "description": "4-dot loader growing from corners"
+  },
+  "Class: .loader-m-2-3": {
+    "prefix": "loader-m-2-3",
+    "body": [
+      "loader-m-2-3"
+    ],
+    "description": "4-dot loader with Z-index transition and scaling"
+  },
+  "Class: .loader-m-2-4": {
+    "prefix": "loader-m-2-4",
+    "body": [
+      "loader-m-2-4"
+    ],
+    "description": "4-dot loader rotating and scaling sequentially (Model 4)"
+  },
+  "Class: .loader-m-2-5": {
+    "prefix": "loader-m-2-5",
+    "body": [
+      "loader-m-2-5"
+    ],
+    "description": "4-dot loader rotating and scaling sequentially (Model 5)"
+  },
+  "Class: .loader-m-2-6": {
+    "prefix": "loader-m-2-6",
+    "body": [
+      "loader-m-2-6"
+    ],
+    "description": "4-dot loader rotating 120 degrees"
+  },
+  "Class: .loader-m-2-7": {
+    "prefix": "loader-m-2-7",
+    "body": [
+      "loader-m-2-7"
+    ],
+    "description": "4-dot loader rotating 180 degrees"
+  },
+  "Class: .loader-m-2-8": {
+    "prefix": "loader-m-2-8",
+    "body": [
+      "loader-m-2-8"
+    ],
+    "description": "4-dot loader rotating multi-directionally and stepped"
+  },
+  "Class: .loader-m-2-9": {
+    "prefix": "loader-m-2-9",
+    "body": [
+      "loader-m-2-9"
+    ],
+    "description": "4-dot loader rotating 360 degrees continuously"
+  },
+  "Class: .loader-m-2-10": {
+    "prefix": "loader-m-2-10",
+    "body": [
+      "loader-m-2-10"
+    ],
+    "description": "4-dot loader rotating reverse and multi-turn fast"
+  },
+  "Class: .loader-m-3-1": {
+    "prefix": "loader-m-3-1",
+    "body": [
+      "loader-m-3-1"
+    ],
+    "description": "2-dot diagonal loader"
+  },
+  "Class: .loader-m-3-2": {
+    "prefix": "loader-m-3-2",
+    "body": [
+      "loader-m-3-2"
+    ],
+    "description": "2-dot diagonal loader rotating 180 degrees"
+  },
+  "Class: .loader-m-3-3": {
+    "prefix": "loader-m-3-3",
+    "body": [
+      "loader-m-3-3"
+    ],
+    "description": "2-dot diagonal loader rotating 360 degrees"
+  },
+  "Class: .loader-m-3-4": {
+    "prefix": "loader-m-3-4",
+    "body": [
+      "loader-m-3-4"
+    ],
+    "description": "2-dot diagonal loader rotating reverse and multi-turn fast"
+  },
+  "Class: .loader-m-4-1": {
+    "prefix": "loader-m-4-1",
+    "body": [
+      "loader-m-4-1"
+    ],
+    "description": "Framed SVG square loader (Long progress stroke)"
+  },
+  "Class: .loader-m-4-2": {
+    "prefix": "loader-m-4-2",
+    "body": [
+      "loader-m-4-2"
+    ],
+    "description": "Framed SVG square loader (Medium progress stroke)"
+  },
+  "Class: .loader-m-4-3": {
+    "prefix": "loader-m-4-3",
+    "body": [
+      "loader-m-4-3"
+    ],
+    "description": "Framed SVG square loader (Short progress stroke)"
+  },
+  "Class: .loader-m-4-4": {
+    "prefix": "loader-m-4-4",
+    "body": [
+      "loader-m-4-4"
+    ],
+    "description": "Framed SVG rounded path loader (Standard direction)"
+  },
+  "Class: .loader-m-4-5": {
+    "prefix": "loader-m-4-5",
+    "body": [
+      "loader-m-4-5"
+    ],
+    "description": "Framed SVG rounded path loader (Rotated 90 degrees)"
+  },
+  "Class: .loader-m-4-6": {
+    "prefix": "loader-m-4-6",
+    "body": [
+      "loader-m-4-6"
+    ],
+    "description": "Framed SVG rounded path loader (Rotated 180 degrees)"
+  },
+  "Class: .loader-m-4-7": {
+    "prefix": "loader-m-4-7",
+    "body": [
+      "loader-m-4-7"
+    ],
+    "description": "Framed SVG rounded path loader (Rotated -90 degrees)"
+  },
+  "Class: .loader-m-5-1": {
+    "prefix": "loader-m-5-1",
+    "body": [
+      "loader-m-5-1"
+    ],
+    "description": "Frameless SVG square loader (Long progress stroke)"
+  },
+  "Class: .loader-m-5-2": {
+    "prefix": "loader-m-5-2",
+    "body": [
+      "loader-m-5-2"
+    ],
+    "description": "Frameless SVG square loader (Medium progress stroke)"
+  },
+  "Class: .loader-m-5-3": {
+    "prefix": "loader-m-5-3",
+    "body": [
+      "loader-m-5-3"
+    ],
+    "description": "Frameless SVG square loader (Short progress stroke)"
+  },
+  "Class: .loader-m-5-4": {
+    "prefix": "loader-m-5-4",
+    "body": [
+      "loader-m-5-4"
+    ],
+    "description": "Frameless SVG rounded path loader (Standard direction)"
+  },
+  "Class: .loader-m-5-5": {
+    "prefix": "loader-m-5-5",
+    "body": [
+      "loader-m-5-5"
+    ],
+    "description": "Frameless SVG rounded path loader (Rotated 90 degrees)"
+  },
+  "Class: .loader-m-5-6": {
+    "prefix": "loader-m-5-6",
+    "body": [
+      "loader-m-5-6"
+    ],
+    "description": "Frameless SVG rounded path loader (Rotated 180 degrees)"
+  },
+  "Class: .loader-m-5-7": {
+    "prefix": "loader-m-5-7",
+    "body": [
+      "loader-m-5-7"
+    ],
+    "description": "Frameless SVG rounded path loader (Rotated -90 degrees)"
+  },
+  "ID: #cookies-confirmation": {
+    "prefix": "cookies-confirmation",
+    "body": [
+      "cookies-confirmation"
+    ],
+    "description": "ID: Cookies confirmation container"
+  },
+  "ID: #cookies-confirmation-close": {
+    "prefix": "cookies-confirmation-close",
+    "body": [
+      "cookies-confirmation-close"
+    ],
+    "description": "ID: Cookies confirmation close trigger"
+  },
+  "Class: .model-line": {
+    "prefix": "model-line",
+    "body": [
+      "model-line"
+    ],
+    "description": "Component: Basic line model"
+  },
+  "Class: .solid": {
+    "prefix": "solid",
+    "body": [
+      "solid"
+    ],
+    "description": "Component: Solid line modifier"
+  },
+  "Class: .edge": {
+    "prefix": "edge",
+    "body": [
+      "edge"
+    ],
+    "description": "Component: Edge line modifier"
+  },
+  "Class: .edged": {
+    "prefix": "edged",
+    "body": [
+      "edged"
+    ],
+    "description": "Component: Bordered style line modifier"
+  },
+  "Class: .triangle-experimental-model-1": {
+    "prefix": "triangle-experimental-model-1",
+    "body": [
+      "triangle-experimental-model-1"
+    ],
+    "description": "Triangle experimental model 1 modifier"
+  },
+  "Class: .triangle-experimental-model-2": {
+    "prefix": "triangle-experimental-model-2",
+    "body": [
+      "triangle-experimental-model-2"
+    ],
+    "description": "Triangle experimental model 2 modifier"
+  },
+  "Class: .triangle-experimental-model-3": {
+    "prefix": "triangle-experimental-model-3",
+    "body": [
+      "triangle-experimental-model-3"
+    ],
+    "description": "Triangle experimental model 3 modifier"
+  },
+  "Dynamic Rounded: Select": {
+    "prefix": "dynamic:rounded",
+    "body": [
+      "dynamic:rounded-${1|0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,1.5,2,2.5,3,3.5,4,4.5,5|}"
+    ],
+    "description": "Dynamic border-radius modifier selection"
+  },
+  "Class: .notification-badge": {
+    "prefix": "notification-badge",
+    "body": [
+      "notification-badge"
+    ],
+    "description": "Component: Notification badge"
+  },
+  "Class: .ul-li-x": {
+    "prefix": "ul-li-x",
+    "body": [
+      "ul-li-x"
+    ],
+    "description": "Horizontal list container"
+  },
+  "Class: .ul-li-y": {
+    "prefix": "ul-li-y",
+    "body": [
+      "ul-li-y"
+    ],
+    "description": "Vertical list container"
+  },
+  "Class: .ul-li-x-list": {
+    "prefix": "ul-li-x-list",
+    "body": [
+      "ul-li-x-list"
+    ],
+    "description": "Horizontal list style"
+  },
+  "Class: .ul-li-y-list": {
+    "prefix": "ul-li-y-list",
+    "body": [
+      "ul-li-y-list"
+    ],
+    "description": "Vertical list style"
+  },
+  "Class: .ul-li-x-scroll": {
+    "prefix": "ul-li-x-scroll",
+    "body": [
+      "ul-li-x-scroll"
+    ],
+    "description": "Scrollable horizontal list"
+  },
+  "Class: .ul-li-x-scroll-hide": {
+    "prefix": "ul-li-x-scroll-hide",
+    "body": [
+      "ul-li-x-scroll-hide"
+    ],
+    "description": "Scrollable horizontal list with hidden scrollbar"
+  },
+  "Class: .ul-li-y-scroll": {
+    "prefix": "ul-li-y-scroll",
+    "body": [
+      "ul-li-y-scroll"
+    ],
+    "description": "Scrollable vertical list"
+  },
+  "Class: .ul-li-y-scroll-hide": {
+    "prefix": "ul-li-y-scroll-hide",
+    "body": [
+      "ul-li-y-scroll-hide"
+    ],
+    "description": "Scrollable vertical list with hidden scrollbar"
+  },
+  "Class: .ul-li-x-line": {
+    "prefix": "ul-li-x-line",
+    "body": [
+      "ul-li-x-line"
+    ],
+    "description": "Horizontal line-separated list"
+  },
+  "Class: .ul-li-x-line-a": {
+    "prefix": "ul-li-x-line-a",
+    "body": [
+      "ul-li-x-line-a"
+    ],
+    "description": "Horizontal line-separated list variant A"
+  },
+  "Class: .ul-li-y-line": {
+    "prefix": "ul-li-y-line",
+    "body": [
+      "ul-li-y-line"
+    ],
+    "description": "Vertical line-separated list"
+  },
+  "Class: .ul-li-y-line-a": {
+    "prefix": "ul-li-y-line-a",
+    "body": [
+      "ul-li-y-line-a"
+    ],
+    "description": "Vertical line-separated list variant A"
+  },
+  "Class: .hr-m-1": {
+    "prefix": "hr-m-1",
+    "body": [
+      "hr-m-1"
+    ],
+    "description": "Component: Horizontal line with gradient background"
+  },
+  "Class: .btn": {
+    "prefix": "btn",
+    "body": [
+      "btn"
+    ],
+    "description": "Component: Basic button style"
+  },
+  "Class: .input-checkbox-m-1": {
+    "prefix": "input-checkbox-m-1",
+    "body": [
+      "input-checkbox-m-1"
+    ],
+    "description": "Checkbox model 1"
+  },
+  "Class: .input-checkbox-m-2": {
+    "prefix": "input-checkbox-m-2",
+    "body": [
+      "input-checkbox-m-2"
+    ],
+    "description": "Checkbox model 2"
+  },
+  "Class: .input-checkbox-m-3": {
+    "prefix": "input-checkbox-m-3",
+    "body": [
+      "input-checkbox-m-3"
+    ],
+    "description": "Checkbox model 3 with checkmark character"
+  },
+  "Class: .input-checkbox-m-4": {
+    "prefix": "input-checkbox-m-4",
+    "body": [
+      "input-checkbox-m-4"
+    ],
+    "description": "Checkbox model 4 with Font Awesome icon"
+  },
+  "Class: .input-checkbox-m-5": {
+    "prefix": "input-checkbox-m-5",
+    "body": [
+      "input-checkbox-m-5"
+    ],
+    "description": "Checkbox model 5"
+  },
+  "Class: .input-checkbox-m-6": {
+    "prefix": "input-checkbox-m-6",
+    "body": [
+      "input-checkbox-m-6"
+    ],
+    "description": "Checkbox model 6"
+  },
+  "Class: .input-radio-m-1": {
+    "prefix": "input-radio-m-1",
+    "body": [
+      "input-radio-m-1"
+    ],
+    "description": "Radio button model 1"
+  },
+  "Class: .input-radio-m-2": {
+    "prefix": "input-radio-m-2",
+    "body": [
+      "input-radio-m-2"
+    ],
+    "description": "Radio button model 2"
+  },
+  "Class: .input-radio-m-3": {
+    "prefix": "input-radio-m-3",
+    "body": [
+      "input-radio-m-3"
+    ],
+    "description": "Radio button model 3"
+  },
+  "Class: .input-radio-m-4": {
+    "prefix": "input-radio-m-4",
+    "body": [
+      "input-radio-m-4"
+    ],
+    "description": "Radio button model 4"
+  },
+  "Class: .input-text-m-1": {
+    "prefix": "input-text-m-1",
+    "body": [
+      "input-text-m-1"
+    ],
+    "description": "Text input model 1"
+  },
+  "Class: .input-password-m-1": {
+    "prefix": "input-password-m-1",
+    "body": [
+      "input-password-m-1"
+    ],
+    "description": "Password input model 1"
+  },
+  "Class: .input-number-m-1": {
+    "prefix": "input-number-m-1",
+    "body": [
+      "input-number-m-1"
+    ],
+    "description": "Number input model 1"
+  },
+  "Class: .input-number-m-2": {
+    "prefix": "input-number-m-2",
+    "body": [
+      "input-number-m-2"
+    ],
+    "description": "Number input model 2"
+  },
+  "Class: .input-number-m-3": {
+    "prefix": "input-number-m-3",
+    "body": [
+      "input-number-m-3"
+    ],
+    "description": "Number input model 3"
+  },
+  "Class: .input-sellect-m-1": {
+    "prefix": [
+      "input-sellect-m-1",
+      "input-select-m-1"
+    ],
+    "body": [
+      "input-sellect-m-1"
+    ],
+    "description": "Select dropdown model 1"
+  },
+  "Class: .input-range-m-1": {
+    "prefix": "input-range-m-1",
+    "body": [
+      "input-range-m-1"
+    ],
+    "description": "Range slider model 1"
+  },
+  "Class: .input-file-m-1": {
+    "prefix": "input-file-m-1",
+    "body": [
+      "input-file-m-1"
+    ],
+    "description": "File input model 1"
+  },
+  "Class: .input-file-m-1-preview": {
+    "prefix": "input-file-m-1-preview",
+    "body": [
+      "input-file-m-1-preview"
+    ],
+    "description": "File input preview container"
+  },
+  "Class: .fieldset-m-1": {
+    "prefix": "fieldset-m-1",
+    "body": [
+      "fieldset-m-1"
+    ],
+    "description": "Fieldset model 1"
+  },
+  "Class: .fieldset-m-2": {
+    "prefix": "fieldset-m-2",
+    "body": [
+      "fieldset-m-2"
+    ],
+    "description": "Fieldset model 2"
+  },
+  "Class: .details-m-1": {
+    "prefix": "details-m-1",
+    "body": [
+      "details-m-1"
+    ],
+    "description": "Collapsible details component"
+  },
+  "Class: .chat-bubble-l-m-1": {
+    "prefix": "chat-bubble-l-m-1",
+    "body": [
+      "chat-bubble-l-m-1"
+    ],
+    "description": "Left chat bubble"
+  },
+  "Class: .chat-bubble-r-m-1": {
+    "prefix": "chat-bubble-r-m-1",
+    "body": [
+      "chat-bubble-r-m-1"
+    ],
+    "description": "Right chat bubble"
+  },
+  "Class: .or-m-1": {
+    "prefix": "or-m-1",
+    "body": [
+      "or-m-1"
+    ],
+    "description": "OR separator component"
+  },
+  "Class: .roadmap-m-1": {
+    "prefix": "roadmap-m-1",
+    "body": [
+      "roadmap-m-1"
+    ],
+    "description": "Roadmap model 1"
+  },
+  "Class: .unlimited:roadmap-m-1": {
+    "prefix": "unlimited:roadmap-m-1",
+    "body": [
+      "unlimited:roadmap-m-1"
+    ],
+    "description": "Unlimited roadmap model 1"
+  },
+  "Class: .roadmap-m-2": {
+    "prefix": "roadmap-m-2",
+    "body": [
+      "roadmap-m-2"
+    ],
+    "description": "Roadmap model 2"
+  },
+  "Class: .roadmap-m-2-icon": {
+    "prefix": "roadmap-m-2-icon",
+    "body": [
+      "roadmap-m-2-icon"
+    ],
+    "description": "Roadmap model 2 icon"
+  },
+  "Class: .unlimited:roadmap-m-2": {
+    "prefix": "unlimited:roadmap-m-2",
+    "body": [
+      "unlimited:roadmap-m-2"
+    ],
+    "description": "Unlimited roadmap model 2"
+  },
+  "Class: .unlimited:roadmap-m-2-icon": {
+    "prefix": "unlimited:roadmap-m-2-icon",
+    "body": [
+      "unlimited:roadmap-m-2-icon"
+    ],
+    "description": "Unlimited roadmap model 2 icon"
+  },
+  "Arrow Right: Select": {
+    "prefix": "arrow-r-m",
+    "body": [
+      "arrow-r-m-${1|1,2,3,4,5,6|}"
+    ],
+    "description": "Right navigation arrow selection"
+  },
+  "Arrow Left: Select": {
+    "prefix": "arrow-l-m",
+    "body": [
+      "arrow-l-m-${1|1,2,3,4,5,6|}"
+    ],
+    "description": "Left navigation arrow selection"
+  },
+  "Dynamic Arrow: Select": {
+    "prefix": "dynamic:arrow",
+    "body": [
+      "dynamic:arrow-${1|r,l|}-m-${2|1,2,3,4,5,6|}"
+    ],
+    "description": "Dynamic interactive navigation arrow selection"
+  },
+  "Class: .active": {
+    "prefix": "active",
+    "body": [
+      "active"
+    ],
+    "description": "Active state class"
+  },
+  "Class: .dropdown-m-1": {
+    "prefix": "dropdown-m-1",
+    "body": [
+      "dropdown-m-1"
+    ],
+    "description": "Dropdown model 1"
+  },
+  "Class: .dropdown-m-1-btn": {
+    "prefix": "dropdown-m-1-btn",
+    "body": [
+      "dropdown-m-1-btn"
+    ],
+    "description": "Dropdown model 1 button"
+  },
+  "Class: .dropdown-m-2": {
+    "prefix": "dropdown-m-2",
+    "body": [
+      "dropdown-m-2"
+    ],
+    "description": "Dropdown model 2"
+  },
+  "Class: .dropdown-m-2-sub": {
+    "prefix": "dropdown-m-2-sub",
+    "body": [
+      "dropdown-m-2-sub"
+    ],
+    "description": "Dropdown model 2 submenu"
+  },
+  "Class: .dropdown-m-3": {
+    "prefix": "dropdown-m-3",
+    "body": [
+      "dropdown-m-3"
+    ],
+    "description": "Dropdown model 3"
+  },
+  "Class: .dropdown-m-3-hideable": {
+    "prefix": "dropdown-m-3-hideable",
+    "body": [
+      "dropdown-m-3-hideable"
+    ],
+    "description": "Dropdown model 3 hideable wrapper"
+  },
+  "Class: .dropdown-m-3-btn": {
+    "prefix": "dropdown-m-3-btn",
+    "body": [
+      "dropdown-m-3-btn"
+    ],
+    "description": "Dropdown model 3 trigger button"
+  },
+  "Class: .visible": {
+    "prefix": "visible",
+    "body": [
+      "visible"
+    ],
+    "description": "Visible state class"
+  },
+  "Class: .dropdown-m-3-title": {
+    "prefix": "dropdown-m-3-title",
+    "body": [
+      "dropdown-m-3-title"
+    ],
+    "description": "Dropdown model 3 title"
+  },
+  "Class: .dropdown-m-3-min": {
+    "prefix": "dropdown-m-3-min",
+    "body": [
+      "dropdown-m-3-min"
+    ],
+    "description": "Dropdown model 3 min width/height"
+  },
+  "Class: .dropdown-m-3-max": {
+    "prefix": "dropdown-m-3-max",
+    "body": [
+      "dropdown-m-3-max"
+    ],
+    "description": "Dropdown model 3 max width/height"
+  },
+  "Class: .dropdown-m-3-hover": {
+    "prefix": "dropdown-m-3-hover",
+    "body": [
+      "dropdown-m-3-hover"
+    ],
+    "description": "Dropdown model 3 hover trigger"
+  },
+  "Class: .login-m-1": {
+    "prefix": "login-m-1",
+    "body": [
+      "login-m-1"
+    ],
+    "description": "Login model 1 layout container"
+  },
+  "Class: .content-list-col-1": {
+    "prefix": "content-list-col-1",
+    "body": [
+      "content-list-col-1"
+    ],
+    "description": "Content list 1 column"
+  },
+  "Class: .content-list-col-2": {
+    "prefix": "content-list-col-2",
+    "body": [
+      "content-list-col-2"
+    ],
+    "description": "Content list 2 columns"
+  },
+  "Class: .content-list-col-2-mobile": {
+    "prefix": "content-list-col-2-mobile",
+    "body": [
+      "content-list-col-2-mobile"
+    ],
+    "description": "Content list 2 columns on mobile"
+  },
+  "Class: .content-list-col-2-tablet": {
+    "prefix": "content-list-col-2-tablet",
+    "body": [
+      "content-list-col-2-tablet"
+    ],
+    "description": "Content list 2 columns on tablet"
+  },
+  "Class: .content-list-col-2-tablet-pc": {
+    "prefix": "content-list-col-2-tablet-pc",
+    "body": [
+      "content-list-col-2-tablet-pc"
+    ],
+    "description": "Content list 2 columns on tablet and PC"
+  },
+  "Class: .content-list-col-3": {
+    "prefix": "content-list-col-3",
+    "body": [
+      "content-list-col-3"
+    ],
+    "description": "Content list 3 columns"
+  },
+  "Class: .content-list-col-3-tablet": {
+    "prefix": "content-list-col-3-tablet",
+    "body": [
+      "content-list-col-3-tablet"
+    ],
+    "description": "Content list 3 columns on tablet"
+  },
+  "Class: .content-list-col-3-tablet-pc": {
+    "prefix": "content-list-col-3-tablet-pc",
+    "body": [
+      "content-list-col-3-tablet-pc"
+    ],
+    "description": "Content list 3 columns on tablet and PC"
+  },
+  "Class: .content-list-col-4": {
+    "prefix": "content-list-col-4",
+    "body": [
+      "content-list-col-4"
+    ],
+    "description": "Content list 4 columns"
+  },
+  "Class: .content-list-col-4-tablet": {
+    "prefix": "content-list-col-4-tablet",
+    "body": [
+      "content-list-col-4-tablet"
+    ],
+    "description": "Content list 4 columns on tablet"
+  },
+  "Class: .content-list-col-4-tablet-pc": {
+    "prefix": "content-list-col-4-tablet-pc",
+    "body": [
+      "content-list-col-4-tablet-pc"
+    ],
+    "description": "Content list 4 columns on tablet and PC"
+  },
+  "Class: .content-list-col-5": {
+    "prefix": "content-list-col-5",
+    "body": [
+      "content-list-col-5"
+    ],
+    "description": "Content list 5 columns"
+  },
+  "Class: .content-list-col-5-tablet-pc": {
+    "prefix": "content-list-col-5-tablet-pc",
+    "body": [
+      "content-list-col-5-tablet-pc"
+    ],
+    "description": "Content list 5 columns on tablet and PC"
+  },
+  "Class: .content-list-col-5-pc": {
+    "prefix": "content-list-col-5-pc",
+    "body": [
+      "content-list-col-5-pc"
+    ],
+    "description": "Content list 5 columns on PC"
+  },
+  "Dynamic Content List: Select": {
+    "prefix": "dynamic:content-list-col",
+    "body": [
+      "dynamic:content-list-col${1|-mobile,-tablet,-tablet-pc,-pc|}"
+    ],
+    "description": "Dynamic multi-column content list responsive variant"
+  },
+  "Class: .item-count": {
+    "prefix": "item-count",
+    "body": [
+      "item-count"
+    ],
+    "description": "Item count container"
+  },
+  "Class: .item": {
+    "prefix": "item",
+    "body": [
+      "item"
+    ],
+    "description": "Item element"
+  },
+  "Class: .item-count-result": {
+    "prefix": "item-count-result",
+    "body": [
+      "item-count-result"
+    ],
+    "description": "Item count result display"
+  },
+  "Theme Var: --plainBg": {
+    "prefix": [
+      "--plainBg",
+      "var(--plainBg)"
+    ],
+    "body": [
+      "var(--plainBg)"
+    ],
+    "description": "Plain background color"
+  },
+  "Theme Var: --contentBg": {
+    "prefix": [
+      "--contentBg",
+      "var(--contentBg)"
+    ],
+    "body": [
+      "var(--contentBg)"
+    ],
+    "description": "Content background color"
+  },
+  "Theme Var: --contentBgPrimary": {
+    "prefix": [
+      "--contentBgPrimary",
+      "var(--contentBgPrimary)"
+    ],
+    "body": [
+      "var(--contentBgPrimary)"
+    ],
+    "description": "Primary content background"
+  },
+  "Theme Var: --contentBgSecondary": {
+    "prefix": [
+      "--contentBgSecondary",
+      "var(--contentBgSecondary)"
+    ],
+    "body": [
+      "var(--contentBgSecondary)"
+    ],
+    "description": "Secondary content background"
+  },
+  "Theme Var: --contentTextPrimary": {
+    "prefix": [
+      "--contentTextPrimary",
+      "var(--contentTextPrimary)"
+    ],
+    "body": [
+      "var(--contentTextPrimary)"
+    ],
+    "description": "Primary text color"
+  },
+  "Theme Var: --contentTextSecondary": {
+    "prefix": [
+      "--contentTextSecondary",
+      "var(--contentTextSecondary)"
+    ],
+    "body": [
+      "var(--contentTextSecondary)"
+    ],
+    "description": "Secondary text color"
+  },
+  "Theme Var: --headerBg": {
+    "prefix": [
+      "--headerBg",
+      "var(--headerBg)"
+    ],
+    "body": [
+      "var(--headerBg)"
+    ],
+    "description": "Header background color"
+  },
+  "Class: .dynamic:rounded-0.1": {
+    "prefix": "dynamic:rounded-0.1",
+    "body": [
+      "dynamic:rounded-0.1"
+    ],
+    "description": "Dynamic border radius 0.1rem"
+  },
+  "Class: .dynamic:rounded-0.2": {
+    "prefix": "dynamic:rounded-0.2",
+    "body": [
+      "dynamic:rounded-0.2"
+    ],
+    "description": "Dynamic border radius 0.2rem"
+  },
+  "Class: .dynamic:rounded-0.3": {
+    "prefix": "dynamic:rounded-0.3",
+    "body": [
+      "dynamic:rounded-0.3"
+    ],
+    "description": "Dynamic border radius 0.3rem"
+  },
+  "Class: .dynamic:rounded-0.4": {
+    "prefix": "dynamic:rounded-0.4",
+    "body": [
+      "dynamic:rounded-0.4"
+    ],
+    "description": "Dynamic border radius 0.4rem"
+  },
+  "Class: .dynamic:rounded-0.5": {
+    "prefix": "dynamic:rounded-0.5",
+    "body": [
+      "dynamic:rounded-0.5"
+    ],
+    "description": "Dynamic border radius 0.5rem"
+  },
+  "Class: .dynamic:rounded-0.6": {
+    "prefix": "dynamic:rounded-0.6",
+    "body": [
+      "dynamic:rounded-0.6"
+    ],
+    "description": "Dynamic border radius 0.6rem"
+  },
+  "Class: .dynamic:rounded-0.7": {
+    "prefix": "dynamic:rounded-0.7",
+    "body": [
+      "dynamic:rounded-0.7"
+    ],
+    "description": "Dynamic border radius 0.7rem"
+  },
+  "Class: .dynamic:rounded-0.8": {
+    "prefix": "dynamic:rounded-0.8",
+    "body": [
+      "dynamic:rounded-0.8"
+    ],
+    "description": "Dynamic border radius 0.8rem"
+  },
+  "Class: .dynamic:rounded-0.9": {
+    "prefix": "dynamic:rounded-0.9",
+    "body": [
+      "dynamic:rounded-0.9"
+    ],
+    "description": "Dynamic border radius 0.9rem"
+  },
+  "Class: .dynamic:rounded-1": {
+    "prefix": "dynamic:rounded-1",
+    "body": [
+      "dynamic:rounded-1"
+    ],
+    "description": "Dynamic border radius 1rem"
+  },
+  "Class: .dynamic:rounded-1.5": {
+    "prefix": "dynamic:rounded-1.5",
+    "body": [
+      "dynamic:rounded-1.5"
+    ],
+    "description": "Dynamic border radius 1.5rem"
+  },
+  "Class: .dynamic:rounded-2": {
+    "prefix": "dynamic:rounded-2",
+    "body": [
+      "dynamic:rounded-2"
+    ],
+    "description": "Dynamic border radius 2rem"
+  },
+  "Class: .dynamic:rounded-2.5": {
+    "prefix": "dynamic:rounded-2.5",
+    "body": [
+      "dynamic:rounded-2.5"
+    ],
+    "description": "Dynamic border radius 2.5rem"
+  },
+  "Class: .dynamic:rounded-3": {
+    "prefix": "dynamic:rounded-3",
+    "body": [
+      "dynamic:rounded-3"
+    ],
+    "description": "Dynamic border radius 3rem"
+  },
+  "Class: .dynamic:rounded-3.5": {
+    "prefix": "dynamic:rounded-3.5",
+    "body": [
+      "dynamic:rounded-3.5"
+    ],
+    "description": "Dynamic border radius 3.5rem"
+  },
+  "Class: .dynamic:rounded-4": {
+    "prefix": "dynamic:rounded-4",
+    "body": [
+      "dynamic:rounded-4"
+    ],
+    "description": "Dynamic border radius 4rem"
+  },
+  "Class: .dynamic:rounded-4.5": {
+    "prefix": "dynamic:rounded-4.5",
+    "body": [
+      "dynamic:rounded-4.5"
+    ],
+    "description": "Dynamic border radius 4.5rem"
+  },
+  "Class: .dynamic:rounded-5": {
+    "prefix": "dynamic:rounded-5",
+    "body": [
+      "dynamic:rounded-5"
+    ],
+    "description": "Dynamic border radius 5rem"
+  },
+  "Class: .arrow-r-m-1": {
+    "prefix": "arrow-r-m-1",
+    "body": [
+      "arrow-r-m-1"
+    ],
+    "description": "Navigation right arrow model 1"
+  },
+  "Class: .arrow-l-m-1": {
+    "prefix": "arrow-l-m-1",
+    "body": [
+      "arrow-l-m-1"
+    ],
+    "description": "Navigation left arrow model 1"
+  },
+  "Class: .dynamic:arrow-r-m-1": {
+    "prefix": "dynamic:arrow-r-m-1",
+    "body": [
+      "dynamic:arrow-r-m-1"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 1"
+  },
+  "Class: .dynamic:arrow-l-m-1": {
+    "prefix": "dynamic:arrow-l-m-1",
+    "body": [
+      "dynamic:arrow-l-m-1"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 1"
+  },
+  "Class: .arrow-r-m-2": {
+    "prefix": "arrow-r-m-2",
+    "body": [
+      "arrow-r-m-2"
+    ],
+    "description": "Navigation right arrow model 2"
+  },
+  "Class: .arrow-l-m-2": {
+    "prefix": "arrow-l-m-2",
+    "body": [
+      "arrow-l-m-2"
+    ],
+    "description": "Navigation left arrow model 2"
+  },
+  "Class: .dynamic:arrow-r-m-2": {
+    "prefix": "dynamic:arrow-r-m-2",
+    "body": [
+      "dynamic:arrow-r-m-2"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 2"
+  },
+  "Class: .dynamic:arrow-l-m-2": {
+    "prefix": "dynamic:arrow-l-m-2",
+    "body": [
+      "dynamic:arrow-l-m-2"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 2"
+  },
+  "Class: .arrow-r-m-3": {
+    "prefix": "arrow-r-m-3",
+    "body": [
+      "arrow-r-m-3"
+    ],
+    "description": "Navigation right arrow model 3"
+  },
+  "Class: .arrow-l-m-3": {
+    "prefix": "arrow-l-m-3",
+    "body": [
+      "arrow-l-m-3"
+    ],
+    "description": "Navigation left arrow model 3"
+  },
+  "Class: .dynamic:arrow-r-m-3": {
+    "prefix": "dynamic:arrow-r-m-3",
+    "body": [
+      "dynamic:arrow-r-m-3"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 3"
+  },
+  "Class: .dynamic:arrow-l-m-3": {
+    "prefix": "dynamic:arrow-l-m-3",
+    "body": [
+      "dynamic:arrow-l-m-3"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 3"
+  },
+  "Class: .arrow-r-m-4": {
+    "prefix": "arrow-r-m-4",
+    "body": [
+      "arrow-r-m-4"
+    ],
+    "description": "Navigation right arrow model 4"
+  },
+  "Class: .arrow-l-m-4": {
+    "prefix": "arrow-l-m-4",
+    "body": [
+      "arrow-l-m-4"
+    ],
+    "description": "Navigation left arrow model 4"
+  },
+  "Class: .dynamic:arrow-r-m-4": {
+    "prefix": "dynamic:arrow-r-m-4",
+    "body": [
+      "dynamic:arrow-r-m-4"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 4"
+  },
+  "Class: .dynamic:arrow-l-m-4": {
+    "prefix": "dynamic:arrow-l-m-4",
+    "body": [
+      "dynamic:arrow-l-m-4"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 4"
+  },
+  "Class: .arrow-r-m-5": {
+    "prefix": "arrow-r-m-5",
+    "body": [
+      "arrow-r-m-5"
+    ],
+    "description": "Navigation right arrow model 5"
+  },
+  "Class: .arrow-l-m-5": {
+    "prefix": "arrow-l-m-5",
+    "body": [
+      "arrow-l-m-5"
+    ],
+    "description": "Navigation left arrow model 5"
+  },
+  "Class: .dynamic:arrow-r-m-5": {
+    "prefix": "dynamic:arrow-r-m-5",
+    "body": [
+      "dynamic:arrow-r-m-5"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 5"
+  },
+  "Class: .dynamic:arrow-l-m-5": {
+    "prefix": "dynamic:arrow-l-m-5",
+    "body": [
+      "dynamic:arrow-l-m-5"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 5"
+  },
+  "Class: .arrow-r-m-6": {
+    "prefix": "arrow-r-m-6",
+    "body": [
+      "arrow-r-m-6"
+    ],
+    "description": "Navigation right arrow model 6"
+  },
+  "Class: .arrow-l-m-6": {
+    "prefix": "arrow-l-m-6",
+    "body": [
+      "arrow-l-m-6"
+    ],
+    "description": "Navigation left arrow model 6"
+  },
+  "Class: .dynamic:arrow-r-m-6": {
+    "prefix": "dynamic:arrow-r-m-6",
+    "body": [
+      "dynamic:arrow-r-m-6"
+    ],
+    "description": "Dynamic interactive navigation right arrow model 6"
+  },
+  "Class: .dynamic:arrow-l-m-6": {
+    "prefix": "dynamic:arrow-l-m-6",
+    "body": [
+      "dynamic:arrow-l-m-6"
+    ],
+    "description": "Dynamic interactive navigation left arrow model 6"
+  },
+  "Class: .dynamic:content-list-col-mobile": {
+    "prefix": "dynamic:content-list-col-mobile",
+    "body": [
+      "dynamic:content-list-col-mobile"
+    ],
+    "description": "Dynamic content list multi-column (mobile)"
+  },
+  "Class: .dynamic:content-list-col-tablet": {
+    "prefix": "dynamic:content-list-col-tablet",
+    "body": [
+      "dynamic:content-list-col-tablet"
+    ],
+    "description": "Dynamic content list multi-column (tablet)"
+  },
+  "Class: .dynamic:content-list-col-tablet-pc": {
+    "prefix": "dynamic:content-list-col-tablet-pc",
+    "body": [
+      "dynamic:content-list-col-tablet-pc"
+    ],
+    "description": "Dynamic content list multi-column (tablet-pc)"
+  },
+  "Class: .dynamic:content-list-col-pc": {
+    "prefix": "dynamic:content-list-col-pc",
+    "body": [
+      "dynamic:content-list-col-pc"
+    ],
+    "description": "Dynamic content list multi-column (pc)"
+  }
+}
