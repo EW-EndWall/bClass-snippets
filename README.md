@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="./images/bClass-snippets.png" alt="Logo" width="220" height="auto">
+    <img src="https://raw.githubusercontent.com/EW-EndWall/bClass-snippets/refs/heads/main/versions/latest/images/bClass-snippets.png" alt="Logo" width="220" height="auto">
   </a>
 
   <h3 align="center">
